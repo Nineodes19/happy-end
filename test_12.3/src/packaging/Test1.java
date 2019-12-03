@@ -11,6 +11,11 @@ class Calculator{
     private double num1;
     private double num2;
 
+    public Calculator(double num1, double num2) {
+        this.num1 = num1;
+        this.num2 = num2;
+    }
+
     public double getNum1() {
         return num1;
     }
@@ -27,27 +32,31 @@ class Calculator{
         this.num2 = num2;
     }
 
-    public double add(double num1,double num2){
+    public double add(){
         return num1+num2;
     }
-    public double sub(double num1,double num2){
+    public double sub(){
         return num1 - num2;
     }
 
-    public double mul(double num1,double num2){
+    public double mul(){
         return num1 * num2;
     }
 
-    public double div(double num1,double num2){
+    public double div(){
         if(num2 == 0){
             System.out.println("ERROR！");
+            return 0;
         }
         return num1 / num2;
     }
 }
 public class Test1 {
     public static void main(String[] args) {
-        Calculator calculator = new Calculator();
-        System.out.println(calculator.div(10.0,0));
+        Calculator calculator = new Calculator(10.0,20.0);
+        System.out.println(calculator.add());
+        System.out.println(calculator.sub());
+        System.out.println(calculator.mul());
+        System.out.println(calculator.div());
     }
 }

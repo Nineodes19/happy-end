@@ -36,6 +36,16 @@ class Student{
         this.sex = sex;
     }
 
+    @Override
+    public String toString() {
+        return "Student{" +
+                "id=" + id +
+                ", name='" + name + '\'' +
+                ", sex='" + sex + '\'' +
+                ", age=" + age +
+                '}';
+    }
+
     public void show(){
         System.out.println("id:"+id+
                             ",  name:"+name+
@@ -45,13 +55,14 @@ class Student{
 }
 public class Test2 {
     public static void main(String[] args) {
-        Student student = new Student();
-        student.show();
-        Student student1 = new Student(123456);
-        student1.show();
-        Student student2 = new Student(13,"九歌","女",19);
-        student2.show();
-        Student student3 = new Student(12545,"jjiqjo","男",45);
-        student3.show();
+//        Student student = new Student();
+//        student.show();
+//        Student student1 = new Student(123456);
+//        student1.show();
+//        Student student2 = new Student(13,"九歌","女",19);
+//        student2.show();
+//        Student student3 = new Student(12545,"jjiqjo","男",45);
+//        student3.show();
+        System.out.println(new Student(13,"九歌","女",19));
     }
 }

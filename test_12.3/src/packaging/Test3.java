@@ -28,3 +28,19 @@ public class Test3 {
         System.out.println("num1 = "+swap.num1+",  num2 = "+swap.num2);
     }
 }
+
+//public class Test3{
+//    int num1 =10;
+//    int num2 = 20;
+//
+//    public static void main(String[] args) {
+//        Test3 test3 = new Test3();
+//        swap(Test3.num1,)
+//    }
+//
+//    public static void swap(int num1,int num2){
+//        int temp = num1;
+//        num2 = num1;
+//        num1 = temp;
+//    }
+//}
