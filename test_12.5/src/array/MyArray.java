@@ -33,7 +33,7 @@ public class MyArray {
         if(size == num.length ){
             //此时动态数组保存的元素个数已经达到内部num的最大值
             //将原先的小数组num扩容为原数组的二倍
-            num = Arrays.copyOf(num,num.length<<1);
+            grow();
         }
         num[size] = data;
         size ++;
@@ -61,7 +61,7 @@ public class MyArray {
         }else{
             //若恰好在有效位数的中间位置插入
             if(size == num.length){
-                num = Arrays.copyOf(num,num.length<<1);
+                grow();
             }
             //将index开始的元素向后移动一位
             System.arraycopy(num,index,num,index + 1, size - index);
@@ -76,6 +76,11 @@ public class MyArray {
      * @return 找到返回元素小标，否则返回-1
      */
     public int find(int data){
+        for (int i = 0; i < size; i++) {
+            if(data == num[i]){
+                return i;
+            }
+        }
         return -1;
     }
 
@@ -85,6 +90,11 @@ public class MyArray {
      * @return
      */
     public boolean contains(int data){
+        for (int x:num) {
+            if(x == data){
+                return true;
+            }
+        }
         return  false;
     }
 
@@ -95,6 +105,14 @@ public class MyArray {
      * @return
      */
     public boolean remove(int data){
+        for (int i = 0; i < size; i++) {
+            if(num[i] == data){
+                System.arraycopy(num,i+1,num,i,size-i-1);
+                num[size] = 0;
+                size--;
+                return true;
+            }
+        }
         return false;
     }
 
@@ -104,8 +122,13 @@ public class MyArray {
      * @return
      */
     public int get(int index){
-        return -1;
+        if(index < 0 || index > size){
+            System.out.println("index索引非法！");
+            return -1;
+        }
+        return num[index];
     }
+
     /**
      * 修改指定索引的内容
      * @param index 指定的元素的下标
@@ -113,6 +136,11 @@ public class MyArray {
      * @return
      */
     public boolean set(int index,int data){
+        if(index < 0 || index >size){
+            System.out.println("index索引非法！");
+            return false;
+        }
+        num[index] = data;
         return false;
     }
 
@@ -128,13 +156,22 @@ public class MyArray {
      * 打印动态数组内容
      */
     public void print(){
-        for (int i = 0; i <= size; i++) {
+        for (int i = 0; i < size; i++) {
             System.out.print(num[i] + "、 ");
         }
+        System.out.println();
     }
 
     //清空所有数组元素
     public void clear(){
+//        for(int i: num){
+//            num[i] = 0;
+//        }
+        Arrays.fill(num,0);
+    }
 
+    //扩容
+    private void grow(){
+        num = Arrays.copyOf(num,num.length<<1);
     }
 }

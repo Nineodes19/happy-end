@@ -54,25 +54,78 @@ public class Test {
 //        System.out.print("5.");
 //    }
 
-    private String name;
-    private int age;
+//    private String name;
+//    private int age;
+//
+//    public Test(String name, int age) {
+//        this.name = name;
+//        this.age = age;
+//    }
+//
+//    @Override
+//    public String toString() {
+//        return "Test{" +
+//                "name='" + name + '\'' +
+//                ", age=" + age +
+//                '}';
+//    }
+//
+//    public static void main(String[] args) {
+//        Test test = new Test("jige",18);
+//        System.out.println(test);
+//    }
 
-    public Test(String name, int age) {
-        this.name = name;
-        this.age = age;
-    }
+//    public static void main(String[] args) {
+//        //和C语言不同的是，Java中double也可以进行取模运算
+//        double a = 11.5;
+//        int b = 2;
+//        System.out.println(a%b);
+//    }
 
-    @Override
-    public String toString() {
-        return "Test{" +
-                "name='" + name + '\'' +
-                ", age=" + age +
-                '}';
-    }
+//    public static void main(String[] args) {
+////        int a = 0;
+////        //System.out.println(a++);
+////        System.out.println(++a);
+//
+//        int a = 10;
+//        int b = 20;
+//        //关系运算符的表达式返回值都是boolean类型
+//        System.out.println(a == b);//false
+//        System.out.println(a != b);//true
+//        System.out.println(a < b);//true
+//        System.out.println(a > b);//false
+//        System.out.println(a <= b);//true
+//        System.out.println(a >= b);//false
+//    }
 
-    public static void main(String[] args) {
-        Test test = new Test("jige",18);
-        System.out.println(test);
-    }
+//    public static void main(String[] args) {
+////        int a =10;
+////        int b = 20;
+////        int c = 30;
+////        //System.out.println(a < b && a > c);//false   同真为真，一假则假
+//
+////        int a =10;
+////        int b = 20;
+////        if(a > b && 10/0 == 0){
+////            System.out.println("hehe");
+////        }else{
+////            System.out.println("haha");
+////        }
+//
+//        int a = 10;
+//        int b = 20;
+//        if(a < b || 10/0 == 0){
+//            System.out.println("hehe");
+//        }else{
+//            System.out.println("haha");
+//        }
+//    }
+    int a = 10;
+    int b = 20;
+
+    //Lambda表达式，表示新建一个进程
+    Thread thread = new Thread(()->
+            System.out.println("hello world"));
+
 }
 
