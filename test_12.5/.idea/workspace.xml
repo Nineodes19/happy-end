@@ -48,7 +48,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Array.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Array.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/arraystack/Array.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="323">
@@ -63,6 +63,36 @@
                 <element signature="method#find#0;class#Array#0" />
                 <element signature="e#2671#2672#0" expanded="true" />
                 <element signature="e#2703#2704#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="HomeWork.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/HomeWork.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="348">
+              <caret line="109" column="40" selection-start-line="109" selection-start-column="40" selection-end-line="109" selection-end-column="40" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MyArray.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/array/MyArray.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="3975">
+              <caret line="168" column="11" lean-forward="true" selection-end-line="177" />
+              <folding>
+                <element signature="e#268#269#0" expanded="true" />
+                <element signature="e#310#311#0" expanded="true" />
+                <element signature="e#343#344#0" expanded="true" />
+                <element signature="e#380#381#0" expanded="true" />
+                <element signature="method#set#0;class#MyArray#0" />
+                <element signature="e#3390#3391#0" expanded="true" />
+                <element signature="e#3444#3445#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -102,7 +132,7 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="-8" />
     <option name="width" value="683" />
     <option name="height" value="740" />
@@ -285,15 +315,15 @@
       <updated>1575483197818</updated>
       <workItem from="1575483206880" duration="22138000" />
       <workItem from="1575617774499" duration="801000" />
-      <workItem from="1575619146433" duration="5106000" />
+      <workItem from="1575619146433" duration="5739000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="28045000" />
+    <option name="totallyTimeSpent" value="28678000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="0" width="683" height="740" extended-state="1" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
@@ -305,12 +335,12 @@
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" order="3" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3296355" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32755905" />
       <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.0" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24963397" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -379,32 +409,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1025">
           <caret line="41" column="18" selection-start-line="41" selection-start-column="18" selection-end-line="41" selection-end-column="18" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/array/MyArray.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="261">
-          <caret line="168" column="11" lean-forward="true" selection-start-line="168" selection-start-column="11" selection-end-line="168" selection-end-column="11" />
-          <folding>
-            <element signature="e#268#269#0" expanded="true" />
-            <element signature="e#310#311#0" expanded="true" />
-            <element signature="e#343#344#0" expanded="true" />
-            <element signature="e#380#381#0" expanded="true" />
-            <element signature="method#set#0;class#MyArray#0" />
-            <element signature="e#3390#3391#0" expanded="true" />
-            <element signature="e#3444#3445#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/HomeWork.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2656">
-          <caret line="109" column="40" selection-start-line="109" selection-start-column="40" selection-end-line="109" selection-end-column="40" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -530,6 +534,32 @@
             <element signature="method#find#0;class#Array#0" />
             <element signature="e#2671#2672#0" expanded="true" />
             <element signature="e#2703#2704#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/HomeWork.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="348">
+          <caret line="109" column="40" selection-start-line="109" selection-start-column="40" selection-end-line="109" selection-end-column="40" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/array/MyArray.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3975">
+          <caret line="168" column="11" lean-forward="true" selection-end-line="177" />
+          <folding>
+            <element signature="e#268#269#0" expanded="true" />
+            <element signature="e#310#311#0" expanded="true" />
+            <element signature="e#343#344#0" expanded="true" />
+            <element signature="e#380#381#0" expanded="true" />
+            <element signature="method#set#0;class#MyArray#0" />
+            <element signature="e#3390#3391#0" expanded="true" />
+            <element signature="e#3444#3445#0" expanded="true" />
           </folding>
         </state>
       </provider>
