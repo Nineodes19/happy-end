@@ -114,10 +114,12 @@ public class SingleLinkedList {
         //从头节点开始依次遍历，直到尾节点
         Node temp = first;
         while(temp != null){
-            System.out.println(temp.getData());
+            System.out.print(temp.getData() +"、 ");
             //继续向下一个节点遍历
             temp = temp.next;
         }
     }
+
+
 }
 

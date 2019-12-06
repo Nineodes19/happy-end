@@ -39,6 +39,7 @@ public class Test{
         s.addLast(2);
         s.addLast(3);
         s.addLast(4);
+        s.addFirst(5);
         s.print();
     }
 }

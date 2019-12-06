@@ -35,5 +35,7 @@ public class Test{
         s.addLast(1);
         s.addLast(2);
         s.addLast(3);
+
+        s.print();
     }
 }

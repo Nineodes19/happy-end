@@ -118,7 +118,7 @@ public class Array<E> {
         }
 
         E ret = data[index];
-        for (int i = 0; i < size; i++) {
+        for (int i = index; i < size && i != 0; i++) {
             data[i-1] = data[i];
         }
         size--;
@@ -156,10 +156,14 @@ public class Array<E> {
 
         StringBuilder res = new StringBuilder();
         res.append(String.format("Array:size = %d,capacity = %d\n",size,data.length));
-        return "Array{" +
-                "data=" + Arrays.toString(data) +
-                ", size=" + size +
-                '}';
+        res.append('[');
+        for (int i = 0; i < size; i++) {
+            res.append(data[i]);
+            if(i != size - 1)
+                res.append(",");
+        }
+        res.append(']');
+        return res.toString();
     }
 }
 
