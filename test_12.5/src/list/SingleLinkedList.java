@@ -43,6 +43,7 @@ class Node{
     private int data;
     public Node next;
 
+
     public Node(int data, Node next) {
         this.data = data;
         this.next = next;
@@ -75,9 +76,21 @@ public class SingleLinkedList {
     private Node head;
     private int size;
 
+    public Node getHead() {
+        return head;
+    }
+
+    public void setHead(Node head) {
+        this.head = head;
+    }
+
     //永远指向最后一个节点
     private Node last;
     private Node first;
+
+    public Node getFirst() {
+        return first;
+    }
 
     public int getSize(){
         return size;
@@ -294,12 +307,13 @@ public class SingleLinkedList {
 
     //将原链表遍历一次，边遍边头插新的链表
     public Node reverse(Node head){
-        //判定边界
+        //判断边界
         if(head == null || head.next == null){
             return head;
         }
-        //当前链表不为空，遍历当前链表，产生新节点头插另一个链表
+        //当前链表不为空，遍历当前链表，产生新节点头插另一个列表
         Node newHead = new Node(head.getData(),null);
+        //遍历原链表
         while(head.next != null){
             //产生新节点
             Node node = new Node(head.next.getData(),null);
@@ -343,6 +357,25 @@ public class SingleLinkedList {
         }
         return true;
     }
+
+//    public Node reverse(Node head){
+//        //判断边界
+//        if(head == null || head.next == null){
+//            return head;
+//        }
+//        //当前链表不为空，遍历当前链表，产生新节点头插另一个列表
+//        Node newHead = new Node(head.getData(),null);
+//        //遍历原链表
+//        while(head.next != null){
+//            //产生新节点
+//            Node node = new Node(head.next.getData(),null);
+//            //将新节点头插到新链表头部
+//            node.next = newHead;
+//            newHead = node;
+//            head = head.next;
+//        }
+//        return newHead;
+//    }
 
 }
 

@@ -15,8 +15,8 @@
       <file leaf-file-name="SingleLinkedList.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/list/SingleLinkedList.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="199">
-              <caret line="347" lean-forward="true" selection-start-line="347" selection-end-line="347" />
+            <state relative-caret-position="324">
+              <caret line="324" column="23" lean-forward="true" selection-start-line="324" selection-start-column="23" selection-end-line="324" selection-end-column="23" />
               <folding>
                 <element signature="e#954#955#0" expanded="true" />
                 <element signature="e#978#979#0" expanded="true" />
@@ -26,6 +26,12 @@
                 <element signature="e#1159#1160#0" expanded="true" />
                 <element signature="e#1197#1198#0" expanded="true" />
                 <element signature="e#1229#1230#0" expanded="true" />
+                <element signature="e#1379#1380#0" expanded="true" />
+                <element signature="e#1406#1407#0" expanded="true" />
+                <element signature="e#1444#1445#0" expanded="true" />
+                <element signature="e#1476#1477#0" expanded="true" />
+                <element signature="e#1567#1568#0" expanded="true" />
+                <element signature="e#1595#1596#0" expanded="true" />
                 <element signature="e#1437#1438#0" expanded="true" />
                 <element signature="e#1464#1465#0" expanded="true" />
                 <element signature="method#addFirst#0;class#SingleLinkedList#0" />
@@ -35,7 +41,6 @@
                 <element signature="method#contains#0;class#SingleLinkedList#0" />
                 <element signature="method#set#0;class#SingleLinkedList#0" />
                 <element signature="method#print#0;class#SingleLinkedList#0" />
-                <element signature="method#reverse#0;class#SingleLinkedList#0" />
               </folding>
             </state>
           </provider>
@@ -44,8 +49,8 @@
       <file leaf-file-name="Test.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/list/Test.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-176">
-              <caret line="33" column="52" lean-forward="true" selection-start-line="33" selection-start-column="52" selection-end-line="33" selection-end-column="52" />
+            <state relative-caret-position="299">
+              <caret line="68" column="32" lean-forward="true" selection-start-line="68" selection-start-column="32" selection-end-line="68" selection-end-column="32" />
             </state>
           </provider>
         </entry>
@@ -73,8 +78,8 @@
         <option value="$PROJECT_DIR$/src/array/arrayqueue/Queue.java" />
         <option value="$PROJECT_DIR$/src/array/arrayqueue/ArrayQueue.java" />
         <option value="$PROJECT_DIR$/src/arraystack/Array.java" />
-        <option value="$PROJECT_DIR$/src/list/Test.java" />
         <option value="$PROJECT_DIR$/src/list/SingleLinkedList.java" />
+        <option value="$PROJECT_DIR$/src/list/Test.java" />
       </list>
     </option>
   </component>
@@ -84,7 +89,7 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-8" />
     <option name="width" value="683" />
     <option name="height" value="740" />
@@ -282,15 +287,15 @@
       <workItem from="1575617774499" duration="801000" />
       <workItem from="1575619146433" duration="5739000" />
       <workItem from="1575681924088" duration="4741000" />
-      <workItem from="1575688023314" duration="3393000" />
+      <workItem from="1575688023314" duration="5081000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="36812000" />
+    <option name="totallyTimeSpent" value="38500000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
@@ -302,7 +307,7 @@
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" order="3" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32755905" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32755905" />
       <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Capture Tool" order="2" />
@@ -567,15 +572,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/list/Test.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-176">
-          <caret line="33" column="52" lean-forward="true" selection-start-line="33" selection-start-column="52" selection-end-line="33" selection-end-column="52" />
+        <state relative-caret-position="299">
+          <caret line="68" column="32" lean-forward="true" selection-start-line="68" selection-start-column="32" selection-end-line="68" selection-end-column="32" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/list/SingleLinkedList.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="199">
-          <caret line="347" lean-forward="true" selection-start-line="347" selection-end-line="347" />
+        <state relative-caret-position="324">
+          <caret line="324" column="23" lean-forward="true" selection-start-line="324" selection-start-column="23" selection-end-line="324" selection-end-column="23" />
           <folding>
             <element signature="e#954#955#0" expanded="true" />
             <element signature="e#978#979#0" expanded="true" />
@@ -585,6 +590,12 @@
             <element signature="e#1159#1160#0" expanded="true" />
             <element signature="e#1197#1198#0" expanded="true" />
             <element signature="e#1229#1230#0" expanded="true" />
+            <element signature="e#1379#1380#0" expanded="true" />
+            <element signature="e#1406#1407#0" expanded="true" />
+            <element signature="e#1444#1445#0" expanded="true" />
+            <element signature="e#1476#1477#0" expanded="true" />
+            <element signature="e#1567#1568#0" expanded="true" />
+            <element signature="e#1595#1596#0" expanded="true" />
             <element signature="e#1437#1438#0" expanded="true" />
             <element signature="e#1464#1465#0" expanded="true" />
             <element signature="method#addFirst#0;class#SingleLinkedList#0" />
@@ -594,7 +605,6 @@
             <element signature="method#contains#0;class#SingleLinkedList#0" />
             <element signature="method#set#0;class#SingleLinkedList#0" />
             <element signature="method#print#0;class#SingleLinkedList#0" />
-            <element signature="method#reverse#0;class#SingleLinkedList#0" />
           </folding>
         </state>
       </provider>

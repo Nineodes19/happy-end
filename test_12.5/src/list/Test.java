@@ -32,20 +32,21 @@ package list;
 public class Test{
     public static void main(String[] args) {
         SingleLinkedList s = new SingleLinkedList();
-        s.addLast(1);
-        s.addLast(2);
-        s.addLast(3);
-        s.addLast(3);
-        s.addLast(4);
-        s.addLast(3);
-        s.addLast(5);
-//        System.out.println(s.get(1));
-//        s.set(2,10);
-        s.print();
-        System.out.println();
-        s.removeAll(3);
-        //s.remove(3);
-        s.print();
+//        s.addLast(1);
+//        s.addLast(2);
+//        s.addLast(3);
+//        s.addLast(3);
+//        s.addLast(4);
+//        s.addLast(3);
+//        s.addLast(5);
+////        System.out.println(s.get(1));
+////        s.set(2,10);
+//        s.print();
+//        System.out.println();
+//        s.removeAll(3);
+//        //s.remove(3);
+//        s.reverse(s.getHead());
+//        s.print();
 
         //System.out.println(s.contains(6));
 //        s.addIndex(1,10);
@@ -57,5 +58,15 @@ public class Test{
 //
 //        s.print();
 //        System.out.println(s.getSize());
+
+        s.addLast(1);
+        s.addLast(2);
+        s.addLast(3);
+        s.addLast(4);
+        s.addLast(5);
+        s.print();
+        System.out.println();
+        s.reverse(s.getFirst());
+        s.print();
     }
 }
