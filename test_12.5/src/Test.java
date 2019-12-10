@@ -1,3 +1,6 @@
+import list.Node;
+import list.SingleLinkedList;
+
 import java.sql.SQLOutput;
 import java.util.Arrays;
 
@@ -120,12 +123,20 @@ public class Test {
 //            System.out.println("haha");
 //        }
 //    }
-    int a = 10;
-    int b = 20;
 
-    //Lambda表达式，表示新建一个进程
-    Thread thread = new Thread(()->
-            System.out.println("hello world"));
-
+    public static void main(String[] args) {
+        SingleLinkedList s = new SingleLinkedList();
+        s.addLast(1);
+        s.addLast(2);
+        s.addLast(3);
+        s.addLast(4);
+        s.addLast(5);
+        Node newHead = s.reverse(s.getFirst());
+        while(newHead != null){
+            System.out.print(newHead.getData() + "、 ");
+            newHead = newHead.next;
+        }
+        //s.print();
+    }
 }
 
