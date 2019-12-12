@@ -12,30 +12,53 @@ import java.util.List;
  */
 public class Solution19 {
     public ListNode removeNthFromEnd(ListNode head, int n) {
-        if(head == null){
+//        if(head == null){
+//            return null;
+//        }
+//        ListNode first = head;
+//        ListNode sec = head;
+//
+//        int count = 0;
+//        while(first != null){
+//            first = first.next;
+//            count++;
+//            if(count >= n+1){
+//                sec = sec.next;
+//            }
+//        }
+//        ListNode dummyHead = new ListNode(-1);
+//        dummyHead.next = head;
+//        ListNode temp = dummyHead;
+//        while(temp.next != null){
+//            if(temp.next== sec){
+//                temp.next = temp.next.next;
+//            }else{
+//                temp = temp.next;
+//            }
+//        }
+//        return dummyHead.next;
+
+
+        if(head == null || head.next == null){
             return null;
         }
-        ListNode first = head;
-        ListNode sec = head;
 
+        ListNode fast = head;
+        ListNode sec = head;
         int count = 0;
-        while(first != null){
-            first = first.next;
+        while(fast != null){
+            fast = fast.next;
             count++;
-            if(count >= n+1){
+            if(count >= n+2){
                 sec = sec.next;
             }
         }
-        ListNode dummyHead = new ListNode(-1);
-        dummyHead.next = head;
-        ListNode temp = dummyHead;
-        while(temp.next != null){
-            if(temp.next== sec){
-                temp.next = temp.next.next;
-            }else{
-                temp = temp.next;
-            }
+        //此时处在待删除位置的前一个节点
+        if(count == n){
+            return head.next;
+        }else{
+            sec.next = sec.next.next;
         }
-        return dummyHead.next;
+        return head;
     }
 }

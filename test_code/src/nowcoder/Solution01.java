@@ -1,5 +1,7 @@
 package nowcoder;
 
+import org.omg.PortableServer.LIFESPAN_POLICY_ID;
+
 /**
  * @program:test_code
  * @author: Nine_odes
@@ -13,7 +15,27 @@ package nowcoder;
 // 请返回重新排列后的链表的头指针。
 // 注意：分割以后保持原来的数据顺序不变。
 public class Solution01 {
-
-
-    
+    public ListNode partition(ListNode pHead, int x) {
+        //1  2  9  4  2  7  4
+        if(pHead == null || pHead.next == null){
+            return pHead;
+        }
+        ListNode small = new ListNode(-1);
+        ListNode s = small;
+        ListNode big = new ListNode(1);
+        ListNode b = big;
+        while(pHead != null){
+            if(pHead.val < x){
+                s.next = pHead;
+                s = pHead;
+            }else{
+                b.next = pHead;
+                b = pHead;
+            }
+            pHead = pHead.next;
+        }
+        b.next = null;
+        s.next = big.next;
+        return small.next;
+    }
 }
