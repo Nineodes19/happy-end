@@ -54,7 +54,7 @@
       <file leaf-file-name="Student.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Student.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="367">
+            <state relative-caret-position="-283">
               <caret line="36" column="51" selection-start-line="36" selection-start-column="51" selection-end-line="36" selection-end-column="51" />
               <folding>
                 <element signature="e#321#322#0" expanded="true" />
@@ -107,9 +107,9 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
-    <option name="x" value="687" />
-    <option name="width" value="669" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="669" />
+    <option name="width" value="687" />
     <option name="height" value="735" />
   </component>
   <component name="ProjectView">
@@ -129,6 +129,19 @@
               <item name="test_12.20" type="b2602c69:ProjectViewProjectNode" />
               <item name="test_12.20" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="test_12.20" type="b2602c69:ProjectViewProjectNode" />
+              <item name="test_12.20" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="code2" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="test_12.20" type="b2602c69:ProjectViewProjectNode" />
+              <item name="test_12.20" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="code2" type="462c0819:PsiDirectoryNode" />
+              <item name="Test1.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
             </path>
             <path>
               <item name="test_12.20" type="b2602c69:ProjectViewProjectNode" />
@@ -281,16 +294,15 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1576819416860</updated>
-      <workItem from="1576819430579" duration="8808000" />
+      <workItem from="1576819430579" duration="9650000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8808000" />
+    <option name="totallyTimeSpent" value="9650000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="687" y="0" width="669" height="735" extended-state="0" />
-    <editor active="true" />
+    <frame x="669" y="0" width="687" height="735" extended-state="0" />
     <layout>
       <window_info anchor="right" id="Palette" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -302,11 +314,11 @@
       <window_info anchor="right" id="Maven Projects" />
       <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3290735" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3290735" />
       <window_info anchor="bottom" id="Terminal" />
       <window_info id="Capture Tool" />
       <window_info id="Designer" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.08882083" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.3695976" />
       <window_info anchor="right" id="Database" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -505,7 +517,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Student.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="367">
+        <state relative-caret-position="-283">
           <caret line="36" column="51" selection-start-line="36" selection-start-column="51" selection-end-line="36" selection-end-column="51" />
           <folding>
             <element signature="e#321#322#0" expanded="true" />
