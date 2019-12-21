@@ -12,35 +12,32 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="InterfaceTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/code6/InterfaceTest.java">
+      <file leaf-file-name="Outer2.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/code7/Outer2.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="226">
-              <caret line="33" column="30" selection-start-line="33" selection-start-column="30" selection-end-line="33" selection-end-column="30" />
-              <folding>
-                <element signature="e#351#352#0" expanded="true" />
-                <element signature="e#387#388#0" expanded="true" />
-                <element signature="e#418#419#0" expanded="true" />
-                <element signature="e#454#455#0" expanded="true" />
-                <element signature="e#485#486#0" expanded="true" />
-                <element signature="e#521#522#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="250">
+              <caret line="10" column="28" selection-start-line="10" selection-start-column="28" selection-end-line="10" selection-end-column="28" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Client.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/code6/Client.java">
+      <file leaf-file-name="Outer3.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/code7/Outer3.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="301">
-              <caret line="36" column="26" selection-start-line="36" selection-start-column="26" selection-end-line="36" selection-end-column="26" />
+            <state relative-caret-position="25">
+              <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TestOuter3.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/code7/TestOuter3.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="175">
+              <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
               <folding>
-                <element signature="e#257#258#0" expanded="true" />
-                <element signature="e#293#294#0" expanded="true" />
-                <element signature="e#360#361#0" expanded="true" />
-                <element signature="e#396#397#0" expanded="true" />
-                <element signature="e#477#478#0" expanded="true" />
-                <element signature="e#495#496#0" expanded="true" />
+                <element signature="e#84#85#0" expanded="true" />
+                <element signature="e#120#121#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -80,6 +77,10 @@
         <option value="$PROJECT_DIR$/src/code5/DataTest.java" />
         <option value="$PROJECT_DIR$/src/code6/InterfaceTest.java" />
         <option value="$PROJECT_DIR$/src/code6/Client.java" />
+        <option value="$PROJECT_DIR$/src/code7/Outer1.java" />
+        <option value="$PROJECT_DIR$/src/code7/Outer2.java" />
+        <option value="$PROJECT_DIR$/src/code7/Outer3.java" />
+        <option value="$PROJECT_DIR$/src/code7/TestOuter3.java" />
       </list>
     </option>
   </component>
@@ -118,7 +119,7 @@
               <item name="test_12.21" type="b2602c69:ProjectViewProjectNode" />
               <item name="test_12.21" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="code6" type="462c0819:PsiDirectoryNode" />
+              <item name="code7" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -144,7 +145,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Client">
+  <component name="RunManager" selected="Application.Outer4">
     <configuration name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="code6.Client" />
       <module name="test_12.21" />
@@ -167,17 +168,6 @@
         </pattern>
       </extension>
     </configuration>
-    <configuration name="EmployeeArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="code4.EmployeeArray" />
-      <module name="test_12.21" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="code4.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-    </configuration>
     <configuration name="InterfaceTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="code6.InterfaceTest" />
       <module name="test_12.21" />
@@ -189,13 +179,24 @@
         </pattern>
       </extension>
     </configuration>
-    <configuration name="Poly" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="code4.Poly" />
+    <configuration name="Outer4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="code7.Outer4" />
       <module name="test_12.21" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="code4.*" />
+          <option name="PATTERN" value="code7.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration name="TestOuter3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="code7.TestOuter3" />
+      <module name="test_12.21" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="code7.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -242,19 +243,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="Application.Poly" />
-      <item itemvalue="Application.EmployeeArray" />
       <item itemvalue="Application.DataTest" />
       <item itemvalue="Application.InterfaceTest" />
       <item itemvalue="Application.Client" />
+      <item itemvalue="Application.TestOuter3" />
+      <item itemvalue="Application.Outer4" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Outer4" />
+        <item itemvalue="Application.TestOuter3" />
         <item itemvalue="Application.Client" />
         <item itemvalue="Application.InterfaceTest" />
         <item itemvalue="Application.DataTest" />
-        <item itemvalue="Application.EmployeeArray" />
-        <item itemvalue="Application.Poly" />
       </list>
     </recent_temporary>
   </component>
@@ -268,12 +269,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1576925557117</updated>
-      <workItem from="1576925591865" duration="6326000" />
+      <workItem from="1576925591865" duration="7152000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6326000" />
+    <option name="totallyTimeSpent" value="7152000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -289,11 +290,11 @@
       <window_info anchor="right" id="Maven Projects" />
       <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32440946" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32440946" />
       <window_info anchor="bottom" id="Terminal" />
       <window_info id="Capture Tool" />
       <window_info id="Designer" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18448023" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18448023" />
       <window_info anchor="right" id="Database" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -314,6 +315,20 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/code7/TestOuter3.java</url>
+          <line>3</line>
+          <properties class="code7.TestOuter3" method="main">
+            <option name="EMULATED" value="true" />
+          </properties>
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="1" />
+    </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/code1/Clock.java">
@@ -529,7 +544,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/code6/InterfaceTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="226">
+        <state relative-caret-position="426">
           <caret line="33" column="30" selection-start-line="33" selection-start-column="30" selection-end-line="33" selection-end-column="30" />
           <folding>
             <element signature="e#351#352#0" expanded="true" />
@@ -544,8 +559,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/code6/Client.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="301">
-          <caret line="36" column="26" selection-start-line="36" selection-start-column="26" selection-end-line="36" selection-end-column="26" />
+        <state relative-caret-position="151">
+          <caret line="14" column="8" selection-start-line="14" selection-start-column="8" selection-end-line="14" selection-end-column="8" />
           <folding>
             <element signature="e#257#258#0" expanded="true" />
             <element signature="e#293#294#0" expanded="true" />
@@ -553,6 +568,42 @@
             <element signature="e#396#397#0" expanded="true" />
             <element signature="e#477#478#0" expanded="true" />
             <element signature="e#495#496#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/code7/Outer1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="400">
+          <caret line="16" column="46" selection-start-line="16" selection-start-column="46" selection-end-line="16" selection-end-column="46" />
+          <folding>
+            <element signature="e#257#258#0" expanded="true" />
+            <element signature="e#301#302#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/code7/Outer2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="10" column="28" selection-start-line="10" selection-start-column="28" selection-end-line="10" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/code7/Outer3.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="25">
+          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/code7/TestOuter3.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+          <folding>
+            <element signature="e#84#85#0" expanded="true" />
+            <element signature="e#120#121#0" expanded="true" />
           </folding>
         </state>
       </provider>
