@@ -11,39 +11,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="Outer2.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/code7/Outer2.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="250">
-              <caret line="10" column="28" selection-start-line="10" selection-start-column="28" selection-end-line="10" selection-end-column="28" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Outer3.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/code7/Outer3.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="25">
-              <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TestOuter3.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/code7/TestOuter3.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="175">
-              <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
-              <folding>
-                <element signature="e#84#85#0" expanded="true" />
-                <element signature="e#120#121#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -79,8 +47,9 @@
         <option value="$PROJECT_DIR$/src/code6/Client.java" />
         <option value="$PROJECT_DIR$/src/code7/Outer1.java" />
         <option value="$PROJECT_DIR$/src/code7/Outer2.java" />
-        <option value="$PROJECT_DIR$/src/code7/Outer3.java" />
         <option value="$PROJECT_DIR$/src/code7/TestOuter3.java" />
+        <option value="$PROJECT_DIR$/src/code7/Outer3.java" />
+        <option value="$PROJECT_DIR$/src/code7/Outer4.java" />
       </list>
     </option>
   </component>
@@ -90,9 +59,9 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
-    <option name="x" value="669" />
-    <option name="width" value="687" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="623" />
+    <option name="width" value="733" />
     <option name="height" value="735" />
   </component>
   <component name="ProjectView">
@@ -269,16 +238,15 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1576925557117</updated>
-      <workItem from="1576925591865" duration="7152000" />
+      <workItem from="1576925591865" duration="8356000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7152000" />
+    <option name="totallyTimeSpent" value="8356000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
+    <frame x="623" y="0" width="733" height="735" extended-state="0" />
     <layout>
       <window_info anchor="right" id="Palette" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -290,11 +258,11 @@
       <window_info anchor="right" id="Maven Projects" />
       <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32440946" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3290735" />
       <window_info anchor="bottom" id="Terminal" />
       <window_info id="Capture Tool" />
       <window_info id="Designer" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18448023" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.35146442" />
       <window_info anchor="right" id="Database" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -318,15 +286,6 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/src/code7/TestOuter3.java</url>
-          <line>3</line>
-          <properties class="code7.TestOuter3" method="main">
-            <option name="EMULATED" value="true" />
-          </properties>
-        </line-breakpoint>
-      </breakpoints>
       <option name="time" value="1" />
     </breakpoint-manager>
   </component>
@@ -590,13 +549,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/code7/Outer3.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="25">
-          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/code7/TestOuter3.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="175">
@@ -604,6 +556,24 @@
           <folding>
             <element signature="e#84#85#0" expanded="true" />
             <element signature="e#120#121#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/code7/Outer3.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/code7/Outer4.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="575">
+          <caret line="23" column="19" selection-start-line="23" selection-start-column="19" selection-end-line="23" selection-end-column="19" />
+          <folding>
+            <element signature="e#256#257#0" expanded="true" />
+            <element signature="e#308#309#0" expanded="true" />
           </folding>
         </state>
       </provider>
