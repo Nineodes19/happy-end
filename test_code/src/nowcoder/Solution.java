@@ -1,5 +1,8 @@
 package nowcoder;
 
+import java.util.Arrays;
+import java.util.Scanner;
+
 /**
  * @program:test_code
  * @author: Nine_odes
