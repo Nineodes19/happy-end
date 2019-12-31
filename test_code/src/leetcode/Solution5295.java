@@ -18,9 +18,4 @@ public class Solution5295 {
         }
         return arr;
     }
-
-    public static void main(String[] args) {
-        Solution5295 s = new Solution5295();
-        Arrays.toString(s.sumZero(5));
-    }
 }

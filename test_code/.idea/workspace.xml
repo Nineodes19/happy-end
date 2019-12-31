@@ -48,8 +48,8 @@
       <file leaf-file-name="Solution5295.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/leetcode/Solution5295.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="288">
-              <caret line="23" column="35" selection-start-line="23" selection-start-column="35" selection-end-line="23" selection-end-column="35" />
+            <state relative-caret-position="352">
+              <caret line="19" column="5" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -94,7 +94,7 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
+  <component name="ProjectFrameBounds">
     <option name="x" value="686" />
     <option name="y" value="4" />
     <option name="width" value="703" />
@@ -257,12 +257,12 @@
       <workItem from="1577198325105" duration="649000" />
       <workItem from="1577252207424" duration="1243000" />
       <workItem from="1577499541770" duration="1110000" />
-      <workItem from="1577628234361" duration="2247000" />
+      <workItem from="1577628234361" duration="3099000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="20998000" />
+    <option name="totallyTimeSpent" value="21850000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="686" y="4" width="703" height="714" extended-state="0" />
@@ -278,11 +278,11 @@
       <window_info anchor="right" id="Maven Projects" order="3" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3123967" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3123967" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.06259097" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.32751092" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -543,8 +543,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/leetcode/Solution5295.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="23" column="35" selection-start-line="23" selection-start-column="35" selection-end-line="23" selection-end-column="35" />
+        <state relative-caret-position="352">
+          <caret line="19" column="5" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
