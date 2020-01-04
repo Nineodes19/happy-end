@@ -24,13 +24,7 @@ public class Solution202 {
             set.add(n);
         }
         return true;
-//        ListNode listNode = new ListNode(n);
-//        if(sum(n) != 1){
-//            int a = sum(n);
-//            listNode.next = new ListNode(sum(a));
-//        }
-//
-//    }
+    }
     public int sum(int n) {
         int a;
         int num = 0;
