@@ -24,8 +24,8 @@
       <file leaf-file-name="Solution202.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/leetcode/Solution202.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="232">
-              <caret line="23" column="23" lean-forward="true" selection-start-line="23" selection-start-column="23" selection-end-line="23" selection-end-column="23" />
+            <state relative-caret-position="282">
+              <caret line="25" column="20" lean-forward="true" selection-start-line="16" selection-start-column="8" selection-end-line="25" selection-end-column="20" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -36,8 +36,8 @@
       <file leaf-file-name="Solution258.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/leetcode/Solution258.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="643">
-              <caret line="27" column="9" lean-forward="true" selection-start-line="27" selection-start-column="9" selection-end-line="27" selection-end-column="9" />
+            <state relative-caret-position="193">
+              <caret line="17" column="9" lean-forward="true" selection-start-line="17" selection-start-column="9" selection-end-line="17" selection-end-column="9" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -45,11 +45,32 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Solution263.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Solution263.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/leetcode/Solution263.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="375">
-              <caret line="27" column="38" selection-start-line="27" selection-start-column="38" selection-end-line="27" selection-end-column="38" />
+            <state relative-caret-position="213">
+              <caret line="42" column="5" lean-forward="true" selection-start-line="39" selection-start-column="3" selection-end-line="42" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Solution263_1.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/leetcode/Solution263_1.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="268">
+              <caret line="27" column="36" selection-start-line="27" selection-start-column="36" selection-end-line="27" selection-end-column="36" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Solution204.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/leetcode/Solution204.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-187">
+              <caret line="32" column="21" selection-start-line="32" selection-start-column="21" selection-end-line="32" selection-end-column="21" />
             </state>
           </provider>
         </entry>
@@ -87,6 +108,8 @@
         <option value="$PROJECT_DIR$/src/leetcode/Solution202.java" />
         <option value="$PROJECT_DIR$/src/leetcode/Solution258.java" />
         <option value="$PROJECT_DIR$/src/leetcode/Solution263.java" />
+        <option value="$PROJECT_DIR$/src/leetcode/Solution263_1.java" />
+        <option value="$PROJECT_DIR$/src/leetcode/Solution204.java" />
       </list>
     </option>
   </component>
@@ -96,10 +119,10 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
-    <option name="x" value="801" />
+  <component name="ProjectFrameBounds" extendedState="1">
+    <option name="x" value="531" />
     <option name="y" value="4" />
-    <option name="width" value="588" />
+    <option name="width" value="858" />
     <option name="height" value="714" />
   </component>
   <component name="ProjectView">
@@ -153,9 +176,9 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Solution263">
-    <configuration name="Solution1281" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetcode.Solution1281" />
+  <component name="RunManager" selected="Application.Solution204">
+    <configuration name="Solution202" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetcode.Solution202" />
       <module name="test_code" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
@@ -165,8 +188,8 @@
         </pattern>
       </extension>
     </configuration>
-    <configuration name="Solution202" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetcode.Solution202" />
+    <configuration name="Solution204" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetcode.Solution204" />
       <module name="test_code" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
@@ -198,8 +221,8 @@
         </pattern>
       </extension>
     </configuration>
-    <configuration name="Solution5295" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetcode.Solution5295" />
+    <configuration name="Solution263_1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetcode.Solution263_1" />
       <module name="test_code" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
@@ -251,19 +274,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="Application.Solution5295" />
-      <item itemvalue="Application.Solution1281" />
       <item itemvalue="Application.Solution202" />
       <item itemvalue="Application.Solution258" />
       <item itemvalue="Application.Solution263" />
+      <item itemvalue="Application.Solution263_1" />
+      <item itemvalue="Application.Solution204" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Solution204" />
+        <item itemvalue="Application.Solution263_1" />
         <item itemvalue="Application.Solution263" />
         <item itemvalue="Application.Solution258" />
         <item itemvalue="Application.Solution202" />
-        <item itemvalue="Application.Solution1281" />
-        <item itemvalue="Application.Solution5295" />
       </list>
     </recent_temporary>
   </component>
@@ -286,15 +309,15 @@
       <workItem from="1577252207424" duration="1243000" />
       <workItem from="1577499541770" duration="1110000" />
       <workItem from="1577628234361" duration="3099000" />
-      <workItem from="1578058856449" duration="7489000" />
+      <workItem from="1578058856449" duration="11603000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="29339000" />
+    <option name="totallyTimeSpent" value="33453000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <frame x="531" y="4" width="858" height="714" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
@@ -307,11 +330,11 @@
       <window_info anchor="right" id="Maven Projects" order="3" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.2976378" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3123967" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.0029282577" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.0" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -631,20 +654,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/leetcode/Solution202.java">
+    <entry file="file://$PROJECT_DIR$/src/leetcode/Solution258.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="232">
-          <caret line="23" column="23" lean-forward="true" selection-start-line="23" selection-start-column="23" selection-end-line="23" selection-end-column="23" />
+        <state relative-caret-position="193">
+          <caret line="17" column="9" lean-forward="true" selection-start-line="17" selection-start-column="9" selection-end-line="17" selection-end-column="9" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/leetcode/Solution258.java">
+    <entry file="file://$PROJECT_DIR$/src/leetcode/Solution202.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="643">
-          <caret line="27" column="9" lean-forward="true" selection-start-line="27" selection-start-column="9" selection-end-line="27" selection-end-column="9" />
+        <state relative-caret-position="282">
+          <caret line="25" column="20" lean-forward="true" selection-start-line="16" selection-start-column="8" selection-end-line="25" selection-end-column="20" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -653,8 +676,25 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/leetcode/Solution263.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="27" column="38" selection-start-line="27" selection-start-column="38" selection-end-line="27" selection-end-column="38" />
+        <state relative-caret-position="213">
+          <caret line="42" column="5" lean-forward="true" selection-start-line="39" selection-start-column="3" selection-end-line="42" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/leetcode/Solution263_1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="268">
+          <caret line="27" column="36" selection-start-line="27" selection-start-column="36" selection-end-line="27" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/leetcode/Solution204.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-187">
+          <caret line="32" column="21" selection-start-line="32" selection-start-column="21" selection-end-line="32" selection-end-column="21" />
         </state>
       </provider>
     </entry>

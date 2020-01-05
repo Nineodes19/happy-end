@@ -1,5 +1,10 @@
 package leetcode;
 
+import java.util.HashSet;
+import java.util.Set;
+
+
+
 /**
  * @program:test_code
  * @author: Nine_odes
@@ -9,25 +14,31 @@ package leetcode;
  */
 public class Solution263 {
     public boolean isUgly(int num) {
-        if(num <= 0){
+        if(num == 0){
+            return false;
+        }
+        while (num != 1){
+            if(num % 2 == 0){
+                num /= 2;
+                continue;
+            }
+            if(num % 3 == 0){
+                num /= 3;
+                continue;
+            }
+            if(num % 5 == 0){
+                num /= 5;
+                continue;
+            }
             return false;
         }
 
-        if(num % 2 == 0 || num % 3 == 0){
-            for (int i = 4; i < num; i++) {
-                if(i == 5){
-                    continue;
-                }
-                if(num % i == 0){
-                    return false;
-                }
-            }
-        }
         return true;
+
     }
 
     public static void main(String[] args) {
         Solution263 s = new Solution263();
-        System.out.println(s.isUgly(14));
+        System.out.println(s.isUgly(20));
     }
 }
