@@ -15,6 +15,23 @@ package leetcode;
  */
 public class Solution1025 {
     public boolean divisorGame(int N) {
+        int count = 0;
+        int temp = 0;
+        while(N>1){
+            for(int i = 1; i < N; i++){
+                if(N % i == 0){
+                    temp = i;
+                    count++;
+                    break;
+                }
+            }
+            N -= temp;
+        }
+        return count % 2 == 1;
+    }
 
+    public static void main(String[] args) {
+        Solution1025 s = new Solution1025();
+        System.out.println(s.divisorGame(2));
     }
 }
