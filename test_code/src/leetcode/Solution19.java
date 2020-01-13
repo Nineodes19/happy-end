@@ -1,4 +1,4 @@
-package leetcode;
+﻿package leetcode;
 
 import org.omg.PortableServer.LIFESPAN_POLICY_ID;
 
@@ -24,6 +24,8 @@ public class Solution19 {
 //            count++;
 //            if(count >= n+1){
 //                sec = sec.next;
+
+
 //            }
 //        }
 //        ListNode dummyHead = new ListNode(-1);
