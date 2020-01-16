@@ -1,0 +1,45 @@
+class DoubleNode{
+
+	DoubleNode prev;
+	int val;
+	DoubleNode next;
+	public DoubleNode(DoubleNode prev,int val,DoubleNode next){
+
+	this.prev = prev;
+	this.val = val;
+	this.next = next;
+	}
+}
+
+public class DoubleLinkedList{
+
+	private int size;
+	private DoubleNode head;
+	private DoubleNode last;
+	public void addLast(int data){
+		DoubleNode node = new DoubleNode(null,data,null);
+		if(head == null){
+			head = last = node;
+			size++;
+			return;
+		}
+		node.prev = last;
+		last.next = node;
+		last = node;
+		size++;
+	}
+	
+	public void addFirst(int data){
+		DoubleNode node = new DoubleNode(null,data,null);
+		if(last == null){
+			head = last = node;
+			size++;
+			return;
+		}
+		node.next = head;
+		head.prev = node;
+		head = node;
+		size++;
+	}
+}
+
