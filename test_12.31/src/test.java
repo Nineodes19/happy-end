@@ -1,4 +1,4 @@
-import java.util.ArrayList;
+﻿import java.util.ArrayList;
 import java.util.Collection;
 import java.util.Iterator;
 import java.util.List;
@@ -89,6 +89,7 @@ public class test {
         list.add("hello");
         list.add("world");
         list.add("leslie");
+	list.add("java");
         System.out.println(list);
         List<String> list_ad = new ArrayList<String>();
         list_ad.add("are you ok ?");
