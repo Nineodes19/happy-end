@@ -1,0 +1,33 @@
+public class SeqList{
+	public void display(){}
+	public void add(int pos,int data){}
+	public boolean contains(int toFind){
+		return true;
+	}
+	public int getPos(int pos){
+		return -1;
+	}
+	public void setPos(int pos,int value){}
+	public void remove(int reRemove){}
+	public int size(){
+		return 0;
+	}
+	public void clear(){}
+
+}
+
+//无头单向非循环链表实现
+
+public class SingleLinkedList{
+
+	public void addFirst(int data);
+	public void addLast(int data);
+	public boolean addIndex(int index,int data);
+	public boolean contains(int key);
+
+	public void remove(int key);
+	public void removeAllKey(int key);
+	public int size();
+	public void display();
+	public void clear();
+}
