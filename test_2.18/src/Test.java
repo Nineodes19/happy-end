@@ -9,9 +9,14 @@
 public class Test {
     public static void main(String[] args) {
         SingleLinkedList s = new SingleLinkedList();
-        s.addList(1);
-        s.addList(2);
-        s.addList(3);
+//        s.addLast(1);
+//        s.addLast(2);
+//        s.addLast(3);
+        s.addFirst(1);
+        s.addFirst(2);
+        s.addFirst(3);
+        s.add(4);//默认使用尾插法
+        s.print();
     }
 }
 //public class Test {

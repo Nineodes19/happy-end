@@ -38,18 +38,30 @@ public class SingleLinkedList {
     private Node head;//头结点
     private int size;//长度
     private Node last;//尾节点
-
+    private Node first;//永远指向头结点
     public void add(int data){
-
+        addLast(data);
     }
 
+    public void addFirst(int data){
+        //产生新节点
+        Node node = new Node(data,null);
+        if(first == null){
+            first = last = node;
+            size ++;
+            return;
+        }
+        node.next = first;
+        first = node;
+        size ++;
+    }
     //尾插法
-    public void addList(int data){
+    public void addLast(int data){
         //生产一个新的节点
         Node node = new Node(data,null);
         //此时火车是空车厢
-        if(head == null){
-            head = last = node;
+        if(last == null){
+            last = first = node;
             size ++;
             return;
         }
@@ -57,6 +69,26 @@ public class SingleLinkedList {
         //last.setNext(node);
         last = node;
         size ++;
+    }
+
+    //遍历一个链表
+    public void print(){
+//        //从头结点开始一次遍历直到尾节点
+//        Node temp = first;
+//        while(temp != null){
+//            System.out.print(temp.getData() +" ");
+//            temp = temp.next;
+//        }
+        for(Node x = first; x != null; x = x.next){
+            System.out.print(x.getData() + "、");
+        }
+    }
+
+    //回文链表
+    //原链表： 1 2 3 4 5 null
+    //回文链表：5 4 3 2 1 null
+    public Node reverse(){
+
     }
 }
 
