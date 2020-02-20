@@ -30,8 +30,8 @@ public class Solution1025 {
         return count % 2 == 1;
     }
 
-    public static void main(String[] args) {
-        Solution1025 s = new Solution1025();
-        System.out.println(s.divisorGame(2));
-    }
+//    public static void main(String[] args) {
+//        Solution1025 s = new Solution1025();
+//        System.out.println(s.divisorGame(2));
+//    }
 }
