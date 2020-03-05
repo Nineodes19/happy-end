@@ -88,7 +88,15 @@ public class RoomTest {
      */
     public static void outTheRoom(){
         System.out.println("请输入退房号");
-        int num = sc.nextInt();
+        int num;
+        String str = sc.next();
+        String regx = "\\d{1}00\\d{1}";
+        while(!str.matches(regx)){
+            System.out.println("输入房间号码有误！");
+            System.out.println("请重新 输入退房间号：");
+            str = sc.next();
+        }
+        num = Integer.getInteger(str);
         int row = num / 1000 - 1;
         int col = num % 1000 - 1;
         if(rooms[row][col].equals("empty")){
