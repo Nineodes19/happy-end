@@ -38,4 +38,14 @@ public class Book {
     public void setName(String name) {
         this.name = name;
     }
+
+    public boolean isBorrow() {
+        return isBorrow;
+    }
+
+    public void setBorrow(boolean borrow) {
+        isBorrow = borrow;
+    }
+
+
 }

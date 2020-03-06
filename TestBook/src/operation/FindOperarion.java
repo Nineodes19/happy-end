@@ -17,12 +17,17 @@ public class FindOperarion implements IOperarion{
         System.out.println("请输入要查找的书籍名称：");
         Scanner scanner = new Scanner(System.in);
         String name = scanner.next();
-        for (int i = 0; i < bookList.getUsedSize(); i++) {
+        int i;
+        for ( i = 0; i < bookList.getUsedSize(); i++) {
             if(bookList.getBook(i).getName().equals(name)){
                 System.out.println(bookList.getBook(i));
                 System.out.println("查找完毕！");
                 break;
             }
+        }
+
+        if(i == bookList.getUsedSize()){
+            System.out.println("没有此书籍。");
         }
     }
 }

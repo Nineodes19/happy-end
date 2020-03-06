@@ -43,5 +43,6 @@ public class DelOperarion implements IOperarion {
         }
 
         bookList.setUsedSize(bookList.getUsedSize()-1);
+        System.out.println("删除成功");
     }
 }
