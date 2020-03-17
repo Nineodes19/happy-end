@@ -1,7 +1,9 @@
 package moon;
 
+import java.util.HashMap;
 import java.util.LinkedList;
 import java.util.List;
+import java.util.Map;
 
 /**
  * @program:test_3.16
@@ -17,25 +19,20 @@ class Employee {
     public List<Integer> subordinates;
 };
 public class TestDemo {
+    private Map<Integer,Employee> map = new HashMap<>();
+    public int getImportance(List<Employee> employees,int id){
+        for(Employee employee:employees ){
+            map.put(employee.id,employee);
+        }
+        return search(id);
+    }
 
-    public int getImportance(List<Employee> employees, int id) {
-        int sumimportance = 0;
-        if(employees.isEmpty()){
-            return -1;
+    public int search(int id){
+        Employee e = map.get(id);//使用get()方法用键id寻找对应的值
+        int sum = e.importance;
+        for(int sub:e.subordinates){
+            sum += search(id);
         }
-        //得到该员工的下属id
-        List<Integer> e = new LinkedList<>();
-        for (int i = 0; i < employees.size(); i++) {
-            if(employees.get(i).id == id){
-                e = employees.get(i).subordinates;
-            }
-        }
-        for (int j = 0; j < employees.size(); j++) {
-            if(e.contains(employees.get(j).id)){
-                sumimportance += employees.get(j).importance;
-            }
-        }
-
-        return sumimportance;
+        return sum;
     }
 }
