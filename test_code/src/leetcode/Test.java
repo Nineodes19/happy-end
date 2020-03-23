@@ -18,9 +18,14 @@ public class Test {
         s1.next = s2;
         s2.next = s3;
         s3.next = s4;
-        Solution19 link = new Solution19();
-        System.out.println(link.removeNthFromEnd(s,2).val);
+//        Solution876 link = new Solution876();
+//        System.out.println(link.middleNode(s).val);
+//        int[] arr = {3,2,2,3};
+//        Solution27 array = new Solution27();
+//        System.out.println(array.removeElement(arr,3));
+
+        int[] arr = {1,3,5,6};
+        Solution35 solution35 = new Solution35();
+        System.out.println(solution35.searchInsert(arr,0));
     }
-
-
 }
