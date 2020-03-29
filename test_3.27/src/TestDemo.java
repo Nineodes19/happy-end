@@ -15,9 +15,9 @@ public class TestDemo {
         final  int NUM_PER_LINE = 5;
         int[][] exercise;
 
-        printHeader("--程序输出加法算式的习题--");
-        exercise = generateExerciseOfAddtractEquation(EQUATION_NUM,ADD_MAX_VALUE,MAX_OPRT_VALUE);
-        formatAndDisplayExercise(exercise,NUM_PER_LINE);
+//        printHeader("--程序输出加法算式的习题--");
+//        exercise = generateExerciseOfAddtractEquation(EQUATION_NUM,ADD_MAX_VALUE,MAX_OPRT_VALUE);
+//        formatAndDisplayExercise(exercise,NUM_PER_LINE);
 
         printHeader("--程序输出减法算式的习题--");
         exercise = generateExerciseOfSubtractEquation(EQUATION_NUM,SUB_MIN_LINE,MAX_OPRT_VALUE);
