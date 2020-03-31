@@ -1,4 +1,5 @@
 import java.util.Arrays;
+import java.util.Random;
 
 /**
  * @program:test_3.28
@@ -169,9 +170,80 @@ public class TestHeap {
         }
     }
 
+    public static void insert_Sort(int[] array,int start,int end){
+        //直接插入排序
+        for (int i = start ,j;i < end; i++) {
+            int tmp = array[i];
+            for (j = i-1; j  >= start; j--) {
+                if(array[j] >= tmp){
+                    array[j+1] = array[j];
+                }else {
+                    break;
+                }
+            }
+            array[j + 1] = tmp;
+        }
+    }
 
+    public static int partion(int[] array,int left,int right){
+        int temp = array[left];
+        while(left < right){
+            while(array[right] >= temp && left < right){
+                right--;
+            }
+            if(left >= right){
+                break;
+            }else{
+                array[left] = array[right];
+            }
+            while(array[left] <= temp && left < right){
+                left++;
+            }
+            if(left >= right){
+                break;
+            }else{
+                array[right] = array[left];
+            }
+        }
+        array[left] = temp;
+        return left;
+    }
+
+    /**
+     * 时间复杂度：k*n*logn
+     * 空间复杂度：logn
+     * 稳定性：不稳定排序
+     * @param array
+     * @param start
+     * @param end
+     */
+    public static void quick(int[] array,int start,int end){
+        if(start >= end){
+            return;
+        }
+        if(end - start +1 <= 100){
+            insert_Sort(array,start,end);
+            return;
+        }
+        int pivot = partion(array,start,end);
+        quick(array,start,pivot - 1);
+        quick(array,pivot + 1, end);
+    }
 
     public static void main(String[] args) {
+        int[] arr = new int[1_100000];
+        Random random = new Random();
+        for (int i = 0; i < arr.length; i++) {
+            arr[i] = random.nextInt();
+        }
+        long startTime = System.currentTimeMillis();
+        quick(arr,0,arr.length - 1);
+        long endTime = System.currentTimeMillis();
+        //System.out.println(Arrays.toString(arr));
+        System.out.println(endTime - startTime);
+    }
+
+    public static void main2(String[] args) {
 //        int[] array = new int[10_1000];
 //        for (int i = 0; i < array.length; i++) {
 //            array[i] = i;
