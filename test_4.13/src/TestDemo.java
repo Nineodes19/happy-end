@@ -24,8 +24,7 @@ public class TestDemo {
         inOrder(root.right);
     }
     public static void main(String[] args) {
-        int[] array = {5,3,4,1,7,8,2,6,0,9};
-
+        int[] array = {21,8,28,4,24,30,26};
         BinarySearchTree binarySearchTree = new BinarySearchTree();
         for (int val:array) {
             binarySearchTree.insert(val);
@@ -34,6 +33,11 @@ public class TestDemo {
         System.out.println();
         inOrder(binarySearchTree.root);
         System.out.println();
-        System.out.println(binarySearchTree.search(7).data);
+        System.out.println(binarySearchTree.search(8).data);
+
+        binarySearchTree.remove(28);
+        preOrder(binarySearchTree.root);
+        System.out.println();
+        inOrder(binarySearchTree.root);
     }
 }

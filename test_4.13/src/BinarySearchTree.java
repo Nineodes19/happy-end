@@ -107,6 +107,40 @@ public class BinarySearchTree {
             }
         }else{
 
+            //在左边找最大值
+            Node targetParent = cur;
+            Node target = cur.left;
+            while(target.right != null){
+                targetParent = target;
+                target = cur.right;
+            }
+            cur.data = target.data;
+            if(target.left != null){
+                targetParent.right = target.left;
+            }
+
+
+
+            //在右边找最小值
+//            Node targetParent = cur;
+//            Node target = cur.right;
+//
+//            while(target.left != null){
+//                targetParent = target;
+//                target  = target.left;
+//            }
+//            //并没有删除，只是一个简单的值的偷换
+//            cur.data = target.data;
+//            //分为两种情况：
+//            //1.因为是在右边找，找的是右边最小的数字，
+//            //又因为右边最小的数字肯定是左树为空
+//            //所以删除的时候分为两种情况
+//            if(target == targetParent.right){
+//                targetParent.right = target.right;
+//            }else{
+//                targetParent.left = target.right;
+//            }
+
         }
     }
 }
