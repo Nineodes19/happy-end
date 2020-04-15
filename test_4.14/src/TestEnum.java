@@ -25,5 +25,6 @@ public enum TestEnum {
                 return t;
             }
         }
+        return testEnums[0];
     }
 }
