@@ -1,14 +1,12 @@
-import org.omg.Messaging.SYNC_WITH_TRANSPORT;
-
 import java.util.Scanner;
 
 /**
- * @program:test_4.26
+ * @program:test_4.27
  * @author:Nine_odes
- * @description:
- * @create:2020-04-26 20:38
+ * @description: 数对
+ * @create:2020-04-27 23:03
  **/
-public class TestDemo {
+public class Main {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         long n = sc.nextInt();
