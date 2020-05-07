@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d3e68fe1-e252-4128-8ef2-7183dd6b4203" name="Default" comment="" />
+    <list default="true" id="e4eed9e5-06ee-4ac6-8257-5453d728096f" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -11,21 +11,12 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Card.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Card.java">
+    <leaf>
+      <file leaf-file-name="UIDL.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/UIDL.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="550">
-              <caret line="25" selection-start-line="6" selection-end-line="25" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Card1.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/Card1.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="166">
-              <caret line="30" column="16" selection-start-line="30" selection-start-column="16" selection-end-line="30" selection-end-column="16" />
+            <state relative-caret-position="88">
+              <caret line="14" column="14" selection-start-line="14" selection-start-column="14" selection-end-line="14" selection-end-column="14" />
             </state>
           </provider>
         </entry>
@@ -42,8 +33,7 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/Card.java" />
-        <option value="$PROJECT_DIR$/src/Card1.java" />
+        <option value="$PROJECT_DIR$/src/UILI.java" />
       </list>
     </option>
   </component>
@@ -53,9 +43,9 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="861" />
-    <option name="y" value="7" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="292" />
+    <option name="y" value="32" />
     <option name="width" value="490" />
     <option name="height" value="665" />
   </component>
@@ -64,19 +54,24 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="AndroidView" />
       <pane id="PackagesPane" />
+      <pane id="AndroidView" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="test_5.6" type="b2602c69:ProjectViewProjectNode" />
-              <item name="test_5.6" type="462c0819:PsiDirectoryNode" />
+              <item name="test_5.7" type="b2602c69:ProjectViewProjectNode" />
+              <item name="test_5.7" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="test_5.6" type="b2602c69:ProjectViewProjectNode" />
-              <item name="test_5.6" type="462c0819:PsiDirectoryNode" />
+              <item name="test_5.7" type="b2602c69:ProjectViewProjectNode" />
+              <item name="test_5.7" type="462c0819:PsiDirectoryNode" />
+              <item name="lib" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="test_5.7" type="b2602c69:ProjectViewProjectNode" />
+              <item name="test_5.7" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -103,17 +98,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Card1">
-    <configuration name="Card" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Card" />
-      <module name="test_5.6" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-    </configuration>
-    <configuration name="Card1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Card1" />
-      <module name="test_5.6" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-    </configuration>
+  <component name="RunManager">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
@@ -155,38 +140,27 @@
       <properties />
       <listeners />
     </configuration>
-    <list>
-      <item itemvalue="Application.Card" />
-      <item itemvalue="Application.Card1" />
-    </list>
-    <recent_temporary>
-      <list>
-        <item itemvalue="Application.Card1" />
-        <item itemvalue="Application.Card" />
-      </list>
-    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="d3e68fe1-e252-4128-8ef2-7183dd6b4203" name="Default" comment="" />
-      <created>1588776431850</created>
+      <changelist id="e4eed9e5-06ee-4ac6-8257-5453d728096f" name="Default" comment="" />
+      <created>1588856143108</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1588776431850</updated>
-      <workItem from="1588776435994" duration="547000" />
-      <workItem from="1588856125321" duration="18000" />
+      <updated>1588856143108</updated>
+      <workItem from="1588856146879" duration="973000" />
+      <workItem from="1588865244363" duration="33000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="565000" />
+    <option name="totallyTimeSpent" value="1006000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="861" y="7" width="490" height="665" extended-state="0" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -197,11 +171,11 @@
       <window_info anchor="right" id="Maven Projects" order="3" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3291367" />
+      <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.32911393" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.329429" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -215,7 +189,6 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Messages" order="7" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -225,31 +198,13 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/Card.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="550">
-          <caret line="25" lean-forward="true" selection-start-line="6" selection-end-line="25" />
-        </state>
-      </provider>
+    <entry file="file://$USER_HOME$/Desktop/作业/代码3-加分隔符.java">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Card1.java">
+    <entry file="file://$PROJECT_DIR$/src/UIDL.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="660">
-          <caret line="30" column="16" lean-forward="true" selection-start-line="30" selection-start-column="16" selection-end-line="30" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Card.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="550">
-          <caret line="25" selection-start-line="6" selection-end-line="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Card1.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="166">
-          <caret line="30" column="16" selection-start-line="30" selection-start-column="16" selection-end-line="30" selection-end-column="16" />
+        <state relative-caret-position="88">
+          <caret line="14" column="14" selection-start-line="14" selection-start-column="14" selection-end-line="14" selection-end-column="14" />
         </state>
       </provider>
     </entry>
