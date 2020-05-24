@@ -74,6 +74,7 @@ public class ThreadDemo2 {
                     try {
                         blockingQueue.offer(i);
                         System.out.println("生产者:" + i);
+                        Thread.sleep(300);
 
                     } catch (InterruptedException e) {
                         e.printStackTrace();
@@ -83,7 +84,7 @@ public class ThreadDemo2 {
         };
         producer.start();
 
-//        customer.join();
-//        producer.join();
+        customer.join();
+        producer.join();
     }
 }
