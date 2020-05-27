@@ -12,36 +12,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="ThreadDemo10.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/Review/ThreadDemo10.java">
+      <file leaf-file-name="ThreadDemo14.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/review5_19/ThreadDemo14.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="218">
-              <caret line="21" column="42" selection-start-line="21" selection-start-column="42" selection-end-line="21" selection-end-column="42" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ThreadDemo12.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Review/ThreadDemo12.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="313">
-              <caret line="73" column="10" lean-forward="true" selection-start-line="73" selection-start-column="10" selection-end-line="73" selection-end-column="10" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ThreadDemo13.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Review/ThreadDemo13.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="132">
-              <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#281#447#0" expanded="true" />
-                <element signature="e#446#447#0" expanded="true" />
-                <element signature="e#760#919#0" expanded="true" />
-                <element signature="e#918#919#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="240">
+              <caret line="16" selection-start-line="16" selection-end-line="16" />
             </state>
           </provider>
         </entry>
@@ -62,6 +37,7 @@
         <option value="$PROJECT_DIR$/src/Review/ThreadDemo12.java" />
         <option value="$PROJECT_DIR$/src/Review/ThreadDemo13.java" />
         <option value="$PROJECT_DIR$/src/Review/ThreadDemo10.java" />
+        <option value="$PROJECT_DIR$/src/review5_19/ThreadDemo14.java" />
       </list>
     </option>
   </component>
@@ -87,7 +63,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="AndroidView" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -104,14 +80,14 @@
               <item name="test_5.26" type="b2602c69:ProjectViewProjectNode" />
               <item name="test_5.26" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Review" type="462c0819:PsiDirectoryNode" />
+              <item name="review5_19" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="Scope" />
-      <pane id="PackagesPane" />
+      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -132,7 +108,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.ThreadDemo13">
+  <component name="RunManager" selected="Application.ThreadDemo14">
     <configuration name="ThreadDemo10" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Review.ThreadDemo10" />
       <module name="test_5.26" />
@@ -173,6 +149,17 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="Review.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration name="ThreadDemo14" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="review5_19.ThreadDemo14" />
+      <module name="test_5.26" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="review5_19.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -223,9 +210,11 @@
       <item itemvalue="Application.ThreadDemo11" />
       <item itemvalue="Application.ThreadDemo12" />
       <item itemvalue="Application.ThreadDemo13" />
+      <item itemvalue="Application.ThreadDemo14" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ThreadDemo14" />
         <item itemvalue="Application.ThreadDemo13" />
         <item itemvalue="Application.ThreadDemo12" />
         <item itemvalue="Application.ThreadDemo11" />
@@ -245,18 +234,20 @@
       <updated>1590457666405</updated>
       <workItem from="1590457669742" duration="6513000" />
       <workItem from="1590472681426" duration="4171000" />
+      <workItem from="1590484535885" duration="1387000" />
+      <workItem from="1590553362402" duration="569000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10684000" />
+    <option name="totallyTimeSpent" value="12640000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="908" y="0" width="464" height="725" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Messages" order="7" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
@@ -282,6 +273,7 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Messages" order="7" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -290,7 +282,67 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <option name="time" value="1" />
+    </breakpoint-manager>
+  </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/Review/ThreadDemo10.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="18" column="38" selection-start-line="18" selection-start-column="38" selection-end-line="18" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Review/ThreadDemo12.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1606">
+          <caret line="73" column="10" selection-start-line="73" selection-start-column="10" selection-end-line="73" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Review/ThreadDemo13.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="572">
+          <caret line="27" selection-start-line="27" selection-end-line="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/review5_19/ThreadDemo14.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="352">
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Review/ThreadDemo10.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="462">
+          <caret line="21" column="42" selection-start-line="21" selection-start-column="42" selection-end-line="21" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Review/ThreadDemo12.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1606">
+          <caret line="73" column="10" lean-forward="true" selection-start-line="73" selection-start-column="10" selection-end-line="73" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Review/ThreadDemo13.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="594">
+          <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/Review/ThreadDemo10.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="550">
@@ -328,29 +380,32 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Review/ThreadDemo12.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="313">
-          <caret line="73" column="10" lean-forward="true" selection-start-line="73" selection-start-column="10" selection-end-line="73" selection-end-column="10" />
+        <state relative-caret-position="1606">
+          <caret line="73" column="10" selection-start-line="73" selection-start-column="10" selection-end-line="73" selection-end-column="10" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Review/ThreadDemo13.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
+        <state relative-caret-position="572">
+          <caret line="27" selection-start-line="27" selection-end-line="27" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#281#447#0" expanded="true" />
-            <element signature="e#446#447#0" expanded="true" />
-            <element signature="e#760#919#0" expanded="true" />
-            <element signature="e#918#919#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Review/ThreadDemo10.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="218">
-          <caret line="21" column="42" selection-start-line="21" selection-start-column="42" selection-end-line="21" selection-end-column="42" />
+        <state relative-caret-position="396">
+          <caret line="18" column="38" selection-start-line="18" selection-start-column="38" selection-end-line="18" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/review5_19/ThreadDemo14.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
         </state>
       </provider>
     </entry>
