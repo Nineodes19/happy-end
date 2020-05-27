@@ -12,77 +12,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="ThreadDemo14.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Review5_19/ThreadDemo14.java">
+      <file leaf-file-name="TestDemo1.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/project5_27/TestDemo1.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-284">
-              <caret line="36" column="21" lean-forward="true" selection-start-line="36" selection-start-column="21" selection-end-line="36" selection-end-column="21" />
+            <state relative-caret-position="284">
+              <caret line="143" column="39" selection-start-line="143" selection-start-column="39" selection-end-line="143" selection-end-column="39" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#745#746#0" expanded="true" />
-                <element signature="e#789#1266#0" expanded="true" />
-                <element signature="e#1265#1266#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ThreadDemo5.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Review5_19/ThreadDemo5.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="38">
-              <caret line="22" column="7" selection-start-line="22" selection-start-column="7" selection-end-line="22" selection-end-column="7" />
-              <folding>
-                <element signature="e#373#374#0" expanded="true" />
-                <element signature="e#404#405#0" expanded="true" />
-                <element signature="e#546#745#0" expanded="true" />
-                <element signature="e#744#745#0" expanded="true" />
-                <element signature="e#788#987#0" expanded="true" />
-                <element signature="e#986#987#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ThreadDemo15.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Review5_19/ThreadDemo15.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-94">
-              <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
-              <folding>
-                <element signature="e#357#1153#0" expanded="true" />
-                <element signature="e#1152#1153#0" expanded="true" />
-                <element signature="e#1196#1444#0" expanded="true" />
-                <element signature="e#1443#1444#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ThreadDemo16.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Review5_19/ThreadDemo16.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="24">
-              <caret line="4" column="20" lean-forward="true" selection-start-line="4" selection-start-column="20" selection-end-line="4" selection-end-column="20" />
-              <folding>
-                <element signature="e#231#232#0" expanded="true" />
-                <element signature="e#260#261#0" expanded="true" />
-                <element signature="e#376#556#0" expanded="true" />
-                <element signature="e#555#556#0" expanded="true" />
-                <element signature="e#627#802#0" expanded="true" />
-                <element signature="e#801#802#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ThreadDemo17.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/Review5_19/ThreadDemo17.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="288">
-              <caret line="31" column="6" selection-start-line="31" selection-start-column="6" selection-end-line="31" selection-end-column="6" />
-            </state>
-          </provider>
+      <file leaf-file-name="test.txt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/testIo/test.txt">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
     </leaf>
@@ -102,6 +46,7 @@
         <option value="$PROJECT_DIR$/src/Review5_19/ThreadDemo15.java" />
         <option value="$PROJECT_DIR$/src/Review5_19/ThreadDemo6.java" />
         <option value="$PROJECT_DIR$/src/Review5_19/ThreadDemo17.java" />
+        <option value="$PROJECT_DIR$/src/project5_27/TestDemo1.java" />
       </list>
     </option>
   </component>
@@ -111,7 +56,7 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
+  <component name="ProjectFrameBounds">
     <option name="x" value="982" />
     <option name="width" value="390" />
     <option name="height" value="725" />
@@ -134,6 +79,11 @@
               <item name="test_5.27" type="b2602c69:ProjectViewProjectNode" />
               <item name="test_5.27" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="test_5.27" type="b2602c69:ProjectViewProjectNode" />
+              <item name="test_5.27" type="462c0819:PsiDirectoryNode" />
+              <item name="testIo" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -160,14 +110,14 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.ThreadDemo17">
-    <configuration name="ThreadDemo14" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Review5_19.ThreadDemo14" />
+  <component name="RunManager" selected="Application.TestDemo1">
+    <configuration name="TestDemo1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="project5_27.TestDemo1" />
       <module name="test_5.27" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Review5_19.*" />
+          <option name="PATTERN" value="project5_27.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -258,19 +208,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="Application.ThreadDemo14" />
       <item itemvalue="Application.ThreadDemo5" />
       <item itemvalue="Application.ThreadDemo15" />
       <item itemvalue="Application.ThreadDemo6" />
       <item itemvalue="Application.ThreadDemo17" />
+      <item itemvalue="Application.TestDemo1" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TestDemo1" />
         <item itemvalue="Application.ThreadDemo17" />
         <item itemvalue="Application.ThreadDemo15" />
         <item itemvalue="Application.ThreadDemo6" />
         <item itemvalue="Application.ThreadDemo5" />
-        <item itemvalue="Application.ThreadDemo14" />
       </list>
     </recent_temporary>
   </component>
@@ -284,12 +234,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1590563185098</updated>
-      <workItem from="1590563188511" duration="8877000" />
+      <workItem from="1590563188511" duration="15783000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8877000" />
+    <option name="totallyTimeSpent" value="15783000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="982" y="0" width="390" height="725" extended-state="0" />
@@ -304,19 +254,19 @@
       <window_info anchor="right" id="Maven Projects" />
       <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32715008" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32715008" />
       <window_info anchor="bottom" id="Terminal" />
       <window_info id="Capture Tool" />
       <window_info id="Designer" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.5272727" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.0" />
       <window_info anchor="right" id="Database" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32715008" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" />
       <window_info anchor="right" id="Theme Preview" />
       <window_info id="Favorites" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -402,6 +352,22 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="288">
           <caret line="31" column="6" selection-start-line="31" selection-start-column="6" selection-end-line="31" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testIo/test">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testIo/test.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/project5_27/TestDemo1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="284">
+          <caret line="143" column="39" selection-start-line="143" selection-start-column="39" selection-end-line="143" selection-end-column="39" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
