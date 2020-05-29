@@ -9,11 +9,31 @@ package Review5_20;
 
 import org.omg.PortableServer.THREAD_POLICY_ID;
 
+
 /**
  * IDEA的surround功能
  * 例如需要 给某段代码上面包裹上一段逻辑（if while）
  * 选中指定代码，Ctrl+alt + t
  * IDEA的surround是诸多开发工具中比较弱的
+ */
+
+/**
+ * wait和sleep的对比
+ *  1.sleep的等待时间是已知的，wait的等待时间sh8i不可控的
+ *  2.线程调用sleep状态是TIMED_WAITING。调用wait进入的WAITING
+ *  3.wait必须搭配锁使用，sleep和锁无关
+ *
+ *  NEW：Thread对象与哦了，PCB还没有
+ *  RUNNABLE：就绪状态，当前这个线程准备就绪，随时可以在CPU上执行，或者正在执行
+ *  TERMATED：PCB已销毁，Thread对象还在
+ *
+ *  WAITING：线程阻塞在wait方法中，等待其他线程唤醒
+ *  TIMED_WAITING：线程阻塞在sleep方法中，等待时间到
+ *  BLOCKED：线程阻塞在获取锁操作上，等待其他线程释放锁
+ */
+
+/**
+ *
  */
 public class ThreadDemo18 {
     //在这个代码中，必须要保证，WaitTask和NotifyTask对应的实例中，持有的locker是一个
