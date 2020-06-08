@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="76875b7e-24bb-4347-b774-674592ef0e5c" name="Default" comment="" />
+    <list default="true" id="1afb65d8-3c71-497b-bcda-c3326787a822" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -13,19 +13,19 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="Main.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/day6/Main.java">
+        <entry file="file://$PROJECT_DIR$/src/day7/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="396">
-              <caret line="18" column="24" selection-start-line="18" selection-start-column="24" selection-end-line="18" selection-end-column="24" />
+            <state relative-caret-position="285">
+              <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Main1.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/day6/Main1.java">
+      <file leaf-file-name="Main2.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/day7/Main2.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="462">
-              <caret line="21" column="8" selection-start-line="21" selection-start-column="8" selection-end-line="25" selection-end-column="9" />
+            <state relative-caret-position="374">
+              <caret line="29" column="9" selection-start-line="29" selection-start-column="9" selection-end-line="29" selection-end-column="9" />
             </state>
           </provider>
         </entry>
@@ -42,8 +42,8 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/day6/Main1.java" />
-        <option value="$PROJECT_DIR$/src/day6/Main.java" />
+        <option value="$PROJECT_DIR$/src/day7/Main2.java" />
+        <option value="$PROJECT_DIR$/src/day7/Main.java" />
       </list>
     </option>
   </component>
@@ -53,9 +53,9 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="854" />
-    <option name="width" value="524" />
+  <component name="ProjectFrameBounds" extendedState="1">
+    <option name="x" value="794" />
+    <option name="width" value="584" />
     <option name="height" value="735" />
   </component>
   <component name="ProjectView">
@@ -67,20 +67,26 @@
         <subPane>
           <expand>
             <path>
-              <item name="test_6.7" type="b2602c69:ProjectViewProjectNode" />
-              <item name="test_6.7" type="462c0819:PsiDirectoryNode" />
+              <item name="test_6.8" type="b2602c69:ProjectViewProjectNode" />
+              <item name="test_6.8" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="test_6.7" type="b2602c69:ProjectViewProjectNode" />
-              <item name="test_6.7" type="462c0819:PsiDirectoryNode" />
+              <item name="test_6.8" type="b2602c69:ProjectViewProjectNode" />
+              <item name="test_6.8" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="test_6.8" type="b2602c69:ProjectViewProjectNode" />
+              <item name="test_6.8" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="day7" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
       <pane id="AndroidView" />
+      <pane id="PackagesPane" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -104,23 +110,23 @@
   </component>
   <component name="RunManager" selected="Application.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="day6.Main" />
-      <module name="test_6.7" />
+      <option name="MAIN_CLASS_NAME" value="day7.Main" />
+      <module name="test_6.8" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="day6.*" />
+          <option name="PATTERN" value="day7.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
     </configuration>
-    <configuration name="Main1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="day6.Main1" />
-      <module name="test_6.7" />
+    <configuration name="Main2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="day7.Main2" />
+      <module name="test_6.8" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="day6.*" />
+          <option name="PATTERN" value="day7.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -167,13 +173,13 @@
       <listeners />
     </configuration>
     <list>
+      <item itemvalue="Application.Main2" />
       <item itemvalue="Application.Main" />
-      <item itemvalue="Application.Main1" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="Application.Main" />
-        <item itemvalue="Application.Main1" />
+        <item itemvalue="Application.Main2" />
       </list>
     </recent_temporary>
   </component>
@@ -182,24 +188,25 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="76875b7e-24bb-4347-b774-674592ef0e5c" name="Default" comment="" />
-      <created>1591493312074</created>
+      <changelist id="1afb65d8-3c71-497b-bcda-c3326787a822" name="Default" comment="" />
+      <created>1591578530243</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1591493312074</updated>
-      <workItem from="1591493314600" duration="3191000" />
-      <workItem from="1591578507892" duration="24000" />
+      <updated>1591578530243</updated>
+      <workItem from="1591578534865" duration="4186000" />
+      <workItem from="1591600028078" duration="634000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3215000" />
+    <option name="totallyTimeSpent" value="4820000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="854" y="0" width="524" height="735" extended-state="0" />
+    <frame x="794" y="0" width="584" height="735" extended-state="1" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Messages" order="7" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
@@ -207,11 +214,11 @@
       <window_info anchor="right" id="Maven Projects" order="3" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3283582" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3747927" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.3448276" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.0" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -225,7 +232,6 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Messages" order="7" weight="0.3283582" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -235,31 +241,31 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/day6/Main.java">
+    <entry file="file://$PROJECT_DIR$/src/day7/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="682">
-          <caret line="31" column="5" lean-forward="true" selection-start-line="12" selection-start-column="4" selection-end-line="31" selection-end-column="5" />
+        <state relative-caret-position="440">
+          <caret line="20" column="13" lean-forward="true" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/day6/Main1.java">
+    <entry file="file://$PROJECT_DIR$/src/day7/Main2.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="462">
-          <caret line="21" column="8" selection-start-line="21" selection-start-column="8" selection-end-line="25" selection-end-column="9" />
+        <state relative-caret-position="638">
+          <caret line="29" column="9" lean-forward="true" selection-start-line="29" selection-start-column="9" selection-end-line="29" selection-end-column="9" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/day6/Main1.java">
+    <entry file="file://$PROJECT_DIR$/src/day7/Main2.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="462">
-          <caret line="21" column="8" selection-start-line="21" selection-start-column="8" selection-end-line="25" selection-end-column="9" />
+        <state relative-caret-position="374">
+          <caret line="29" column="9" selection-start-line="29" selection-start-column="9" selection-end-line="29" selection-end-column="9" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/day6/Main.java">
+    <entry file="file://$PROJECT_DIR$/src/day7/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="18" column="24" selection-start-line="18" selection-start-column="24" selection-end-line="18" selection-end-column="24" />
+        <state relative-caret-position="285">
+          <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
         </state>
       </provider>
     </entry>
