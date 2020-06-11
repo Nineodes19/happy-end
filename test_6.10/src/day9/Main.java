@@ -10,15 +10,13 @@ import java.util.Scanner;
  **/
 public class Main {
     static int count(int n){
-        long sum = 1;//求n的阶乘
-        for(int i = 1; i <= n; i++){
-            sum *= i;
-        }
-        int ret = 0;//末尾0的个数
-
-        while(sum % 10 == 0){
-            ret ++;
-            sum/=10;
+        int ret = 0;
+        for (int i = n; i >= 5 ; i--) {
+            int temp = i;
+            while(temp % 5 == 0){
+                ret++;
+                temp/=5;
+            }
         }
         return ret;
     }
