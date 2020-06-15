@@ -1,5 +1,6 @@
 package day11;
 
+import java.util.Arrays;
 import java.util.HashMap;
 import java.util.Map;
 import java.util.Scanner;
@@ -11,7 +12,32 @@ import java.util.Scanner;
  * @create:2020-06-14 10:27
  **/
 public class Main {
-    public static void main(String[] args){
+    public static void add(Byte b){
+        b = b++;
+    }
+    public static int[] exchangeAB(int[] AB) {
+        // write code here
+        int temp = AB[0] ^ AB[1];
+        AB[0] = temp ^ AB[0];
+        AB[1] = temp ^ AB[1];
+        return AB;
+    }
+
+    public static void main(String[] args) {
+        int[] arr = new int[]{1,2};
+        System.out.println(Arrays.toString(exchangeAB(arr)));
+    }
+    public static void main3(String[] args) {
+        HashMap<String,String> map = new HashMap<>();
+        map.put(null,null);
+        Byte a = 127;
+        Byte b = 127;
+        add(++a);
+        System.out.println(a + " ");
+        add(b);
+        System.out.println(b);
+    }
+    public static void main1(String[] args){
         Scanner sc = new Scanner(System.in);
         while(sc.hasNext()){
             String s = sc.nextLine();
