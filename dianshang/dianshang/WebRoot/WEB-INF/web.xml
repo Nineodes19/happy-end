@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" id="WebApp_ID" version="2.5" metadata-complete="true">
+  <display-name>dianshang</display-name>
+ <servlet>
+    <description></description>
+    <display-name>UserServlet</display-name>
+    <servlet-name>UserServlet</servlet-name>
+    <servlet-class>com.chinaedu.taoku.servlet.UserServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description></description>
+    <display-name>UserLogin</display-name>
+    <servlet-name>UserLogin</servlet-name>
+    <servlet-class>com.chinaedu.taoku.servlet.UserLogin</servlet-class>
+  </servlet>
+  <servlet>
+    <description></description>
+    <display-name>ProductServlet</display-name>
+    <servlet-name>ProductServlet</servlet-name>
+    <servlet-class>com.chinaedu.taoku.servlet.ProductServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description></description>
+    <display-name>ProductDetail</display-name>
+    <servlet-name>ProductDetail</servlet-name>
+    <servlet-class>com.chinaedu.taoku.servlet.ProductDetail</servlet-class>
+  </servlet>
+	<servlet>
+    <description></description>
+    <display-name>ShopServlet</display-name>
+    <servlet-name>ShopServlet</servlet-name>
+    <servlet-class>com.chinaedu.taoku.servlet.ShopServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>CatServlet</servlet-name>
+    <servlet-class>com.chinaedu.taoku.servlet.CatServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>CatDetail</servlet-name>
+    <servlet-class>com.chinaedu.taoku.servlet.CatDetail</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>CatShopServlet</servlet-name>
+    <servlet-class>com.chinaedu.taoku.servlet.CatShopServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>WjServlet</servlet-name>
+    <servlet-class>com.chinaedu.taoku.servlet.WjServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>WjDetail</servlet-name>
+    <servlet-class>com.chinaedu.taoku.servlet.WjDetail</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>WjShopServlet</servlet-name>
+    <servlet-class>com.chinaedu.taoku.servlet.WjShopServlet</servlet-class>
+  </servlet>
+
+
+
+
+
+
+
+
+
+  <servlet-mapping>
+    <servlet-name>UserServlet</servlet-name>
+    <url-pattern>/UserServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>UserLogin</servlet-name>
+    <url-pattern>/UserLogin</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ProductServlet</servlet-name>
+    <url-pattern>/ProductServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ProductDetail</servlet-name>
+    <url-pattern>/ProductDetail</url-pattern>
+  </servlet-mapping> 
+   <servlet-mapping>
+    <servlet-name>ShopServlet</servlet-name>
+    <url-pattern>/ShopServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>CatServlet</servlet-name>
+    <url-pattern>/CatServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>CatDetail</servlet-name>
+    <url-pattern>/CatDetail</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>CatShopServlet</servlet-name>
+    <url-pattern>/CatShopServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>WjServlet</servlet-name>
+    <url-pattern>/WjServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>WjDetail</servlet-name>
+    <url-pattern>/WjDetail</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>WjShopServlet</servlet-name>
+    <url-pattern>/WjShopServlet</url-pattern>
+  </servlet-mapping> 
+  <welcome-file-list>
+    <welcome-file>index.html</welcome-file>
+    <welcome-file>index.htm</welcome-file>
+    <welcome-file>index.jsp</welcome-file>
+    <welcome-file>default.html</welcome-file>
+    <welcome-file>default.htm</welcome-file>
+    <welcome-file>default.jsp</welcome-file>
+  </welcome-file-list>
+</web-app>

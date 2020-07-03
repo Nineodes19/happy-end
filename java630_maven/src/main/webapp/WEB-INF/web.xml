@@ -18,6 +18,16 @@
 
 
     <servlet>
+        <servlet-name>CookieDemo</servlet-name>
+        <servlet-class>java7_1.CookieDemo</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>CookieDemo</servlet-name>
+        <url-pattern>/CookieDemo</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
         <servlet-name>CalcServlet</servlet-name>
         <servlet-class>test.CalcServlet</servlet-class>
     </servlet>
