@@ -22,6 +22,8 @@ public class TestDemo2 {
 
         byte b = 10;
         byte c = 20;
+
+//        byte d = b + c;
         short s = 10;
         short s1 = 20;
 
