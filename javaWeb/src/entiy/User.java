@@ -1,4 +1,4 @@
-package entiy;
+package entiy;//实体包
 
 /**
  * @program:javaWeb
@@ -87,5 +87,20 @@ public class User {
 
     public void setEmile(String emile) {
         this.emile = emile;
+    }
+
+    @Override
+    public String toString() {
+        return "User{" +
+                "id=" + id +
+                ", name='" + name + '\'' +
+                ", username='" + username + '\'' +
+                ", password='" + password + '\'' +
+                ", gender='" + gender + '\'' +
+                ", age=" + age +
+                ", address='" + address + '\'' +
+                ", qq='" + qq + '\'' +
+                ", emile='" + emile + '\'' +
+                '}';
     }
 }

@@ -16,7 +16,7 @@ import java.sql.SQLException;
  **/
 public class DButil {
     private static String url = "jdbc:mysql://127.0.0.1:3306/usermanger?useSSL=false";
-    private static String password = "111111";
+    private static String password = "jiugeqingchen";
     private static String username = "root";
     private static volatile DataSource DATASOURCE;
     private static DataSource getDataSource(){ // 双重校验锁
@@ -24,6 +24,7 @@ public class DButil {
             synchronized (DButil.class){
                 if(DATASOURCE == null){
                     DATASOURCE = new MysqlDataSource();
+
                     ((MysqlDataSource) DATASOURCE).setUrl(url);
                     ((MysqlDataSource) DATASOURCE).setUser(username);
                     ((MysqlDataSource) DATASOURCE).setPassword(password);
