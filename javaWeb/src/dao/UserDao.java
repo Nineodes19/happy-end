@@ -5,15 +5,14 @@ package dao;
  *      JDBC连接数据库
  */
 
-import com.sun.org.apache.bcel.internal.generic.DUP;
 import entiy.User;
 import util.DButil;
 
-import  com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException;
 import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.sql.SQLException;
+import java.util.*;
 
 /**
  * @program:javaWeb
@@ -59,7 +58,7 @@ public class UserDao {
         return user;
     }
 
-    public static int add(User user){
+    public int add(User user){
         Connection connection = null;
         PreparedStatement ps = null;
         ResultSet rs = null;
@@ -93,7 +92,7 @@ public class UserDao {
      * @param id
      * @return
      */
-    public static int delete(int id){
+    public int delete(int id){
         Connection connection = null;
         PreparedStatement ps = null;
         ResultSet rs = null;
@@ -117,7 +116,7 @@ public class UserDao {
      * @param id
      * @return
      */
-    public static User find(int id){
+    public User find(int id){
         Connection connection = null;
         PreparedStatement ps = null;
         ResultSet rs = null;
@@ -149,7 +148,7 @@ public class UserDao {
     /**
      * 更新：只需要给一个用户对象
      */
-    public static int updateUser(User upUser){
+    public int updateUser(User upUser){
         Connection connection = null;
         PreparedStatement ps = null;
         ResultSet rs = null;
@@ -171,25 +170,148 @@ public class UserDao {
         return 0;
     }
 
-    public static void main(String[] args) {
+    /**
+     *
+     * @param start 开始查询的起始位置
+     * @param rows 每次查询多少条记录
+     * @param map name，address，email
+     * @return
+     */
+    public List<User> findByPage(int start, int rows, Map<String,String[]> map){
+        List<User> users = new ArrayList<>();
+        String sql = "select * from usermessage where 1=1 ";
+        StringBuilder sb = new StringBuilder(sql);
 
-        User user = new User();
+        List<Object >list = new ArrayList<>();
+        //将map中的key值都放到keySet中
+        Set<String> keySet = map.keySet();
+        for (String key:keySet) {
+            String value = map.get(key)[0];
+            if(value != null && !"".equals(value)){
+                sb.append(" and ").append(key).append(" like ?");
+                list.add("%" + value + "%");
+            }
+        }
+        sb.append(" limit ?,?");
+        list.add(start);
+        list.add(rows);
+//        System.out.println("sql: " + sb);
+//        System.out.println("list: " +list);
 
-        user.setId(7);
-        user.setGender("女");
-        user.setAddress("陕西");
-        user.setAge(800);
-        user.setQq("123645");
-        user.setEmile("123645@qq.com");
-        int ret = updateUser(user);
-        if (ret==  0) {
-            System.out.println("更新失败");
-        } else {
-            System.out.println("更新成功");
+        Connection connection = null;
+        PreparedStatement ps = null;
+        ResultSet rs = null;
+        try{
+            connection = DButil.getConnection();
+            ps = connection.prepareStatement(sb.toString());
+            //给sql语句赋值
+
+            setValues(ps,list.toArray());
+            rs = ps.executeQuery();
+            while(rs.next()){
+                User user = new User();
+                user.setId(rs.getInt("id"));
+                user.setName(rs.getString("name"));
+                user.setUsername(rs.getString("username"));
+                user.setPassword(rs.getString("password"));
+                user.setGender(rs.getString("gender"));
+                user.setAge(rs.getInt("age"));
+                user.setAddress(rs.getString("address"));
+                user.setQq(rs.getString("qq"));
+                user.setEmile(rs.getString("email"));
+                users.add(user);
+            }
+        } catch (SQLException e) {
+            e.printStackTrace();
+        }finally {
+            DButil.close(connection,ps,rs);
+        }
+        return users;
+    }
+
+    public void setValues(PreparedStatement ps,Object... arrays) throws SQLException {
+        for (int i = 0; i < arrays.length; i++) {
+            ps.setObject(i+1,arrays[i]);
+        }
+    }
+
+    /**
+     * 查询共有多少条记录
+     * @param map map包含name，address，email
+     * @return
+     */
+    public int findAllRecord(Map<String,String[]> map){
+        int count = 0;
+        String sql = "select count(*) from usermessage where 1=1 ";
+        StringBuilder sb = new StringBuilder(sql);
+
+        List<Object >list = new ArrayList<>();
+        //将map中的key值都放到keySet中
+        Set<String> keySet = map.keySet();
+        for (String key:keySet) {
+            String value = map.get(key)[0];
+            if(value != null && !"".equals(value)){
+                sb.append(" and ").append(key).append(" like ?");
+                list.add("%" + value + "%");
+            }
         }
 
+        Connection connection = null;
+        PreparedStatement ps = null;
+        ResultSet rs = null;
+        try{
+            connection = DButil.getConnection();
+            ps = connection.prepareStatement(sb.toString());
+            //给sql语句赋值
 
-//        User ret = find(1);
-//        System.out.println(ret);
+            setValues(ps,list.toArray());
+            rs = ps.executeQuery();
+            if(rs.next()){
+                count = rs.getInt(1);
+            }
+        } catch (SQLException e) {
+            e.printStackTrace();
+        }finally {
+            DButil.close(connection,ps,rs);
+        }
+        return count;
     }
+
+    public static void main(String[] args) {
+
+    }
+//    public static void main(String[] args) {
+//
+//        Map<String,String[]> map = new HashMap<>();
+////        String[] names = {"孙"};
+////        map.put("name",names);
+//        String[] addresses = {"陕西"};
+//        map.put("address",addresses);
+//
+//        List<User> userList = findByPage(0,5,map);
+//        for (User u: userList) {
+//            System.out.println(u);
+//        }
+//
+//        int count = findAllRecord(map);
+//        System.out.println(count);
+////        User user = new User();
+////
+////        user.setId(7);
+////        user.setGender("女");
+////        user.setAddress("陕西");
+////        user.setAge(800);
+////        user.setQq("123645");
+////        user.setEmile("123645@qq.com");
+////        int ret = updateUser(user);
+////        if (ret==  0) {
+////            System.out.println("更新失败");
+////        } else {
+////            System.out.println("更新成功");
+////        }
+//
+//
+////        User ret = find(1);
+////        System.out.println(ret);
+//    }
 }
