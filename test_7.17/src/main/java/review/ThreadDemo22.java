@@ -19,7 +19,7 @@ public class ThreadDemo22 {
     private volatile int size = 0;
     private volatile int head = 0;
     private volatile int tail = 0;
-    public void offer(int value) throws InterruptedException {
+    public static void offer(int value) throws InterruptedException {
         synchronized (this) {
             //使用while是担心wait被意外唤醒
             while(size == array.length){
@@ -37,7 +37,7 @@ public class ThreadDemo22 {
         }
     }
 
-    public int poll() throws InterruptedException {
+    public static int poll() throws InterruptedException {
         int ret = 0;
         synchronized (this) {
             while(size == 0){
@@ -56,6 +56,25 @@ public class ThreadDemo22 {
     }
 
     public static void main(String[] args) {
+        BlockingQueue blockingQueue = new BlockingQueue();
+        Thread worker = new Thread(){
+            public void run(){
+                for (int i = 0; i < 10; i++) {
+                    blockingQueue.offer();
+                    System.out.println("生产者： " + i);
+                }
+            }
+        };
+        worker.start();
 
+        Thread customer = new Thread(){
+            public void run(){
+                for (int i = 0; i < 10; i++) {
+                    blockingQueue.poll();
+                    System.out.println("消费者： " + i);
+                }
+            }
+        };
+        customer.start();
     }
 }
