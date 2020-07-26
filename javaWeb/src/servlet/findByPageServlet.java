@@ -26,11 +26,18 @@ public class findByPageServlet extends HttpServlet {
 
         String currentPage = req.getParameter("currentPage");
         String rows = req.getParameter("rows");
+        //String name = req.getParameter("name");
+
+        //req.getParameterMap();//获取前端发送给后端的所有数据
 
         Map<String,String[]> parMap = req.getParameterMap();
 
+        System.out.println("=========================");
         for(Map.Entry<String,String[]> entry : parMap.entrySet()){
-            System.out.println("key: " + entry.getKey()+"Value: " + Arrays.toString(entry.getValue()));
+            System.out.println("key:  " + entry.getKey()+" Value:  " + Arrays.toString(entry.getValue()));
         }
+
+        parMap.remove("currentPage");
+        parMap.remove("rows");
     }
 }
