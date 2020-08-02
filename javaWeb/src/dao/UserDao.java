@@ -171,13 +171,13 @@ public class UserDao {
     }
 
     /**
-     *
+     *查询当前条件下的所有用户信息
      * @param start 开始查询的起始位置
      * @param rows 每次查询多少条记录
      * @param map name，address，email
      * @return
      */
-    public List<User> findByPage(int start, int rows, Map<String,String[]> map){
+    public  List<User> findByPage(int start, int rows, Map<String,String[]> map){
         List<User> users = new ArrayList<>();
         String sql = "select * from usermessage where 1=1 ";
         StringBuilder sb = new StringBuilder(sql);
@@ -229,7 +229,7 @@ public class UserDao {
         return users;
     }
 
-    public void setValues(PreparedStatement ps,Object... arrays) throws SQLException {
+    public void setValues(PreparedStatement ps, Object... arrays) throws SQLException {
         for (int i = 0; i < arrays.length; i++) {
             ps.setObject(i+1,arrays[i]);
         }
@@ -240,7 +240,7 @@ public class UserDao {
      * @param map map包含name，address，email
      * @return
      */
-    public int findAllRecord(Map<String,String[]> map){
+    public int findAllRecord(Map<String, String[]> map){
         int count = 0;
         String sql = "select count(*) from usermessage where 1=1 ";
         StringBuilder sb = new StringBuilder(sql);
@@ -277,9 +277,7 @@ public class UserDao {
         return count;
     }
 
-    public static void main(String[] args) {
 
-    }
 //    public static void main(String[] args) {
 //
 //        Map<String,String[]> map = new HashMap<>();

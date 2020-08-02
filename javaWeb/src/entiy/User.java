@@ -1,5 +1,7 @@
 package entiy;//实体包
 
+import java.util.List;
+
 /**
  * @program:javaWeb
  * @author:Nine_odes

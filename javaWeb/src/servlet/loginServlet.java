@@ -28,18 +28,20 @@ public class loginServlet extends HttpServlet {
     protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
 
         req.setCharacterEncoding("utf-8");
-        resp.setContentType("application/json:charset=utf-8");
+        resp.setContentType("application/json;charset=utf-8");
 
         String username = req.getParameter("username");
         String password = req.getParameter("password");
 
         System.out.println("username" +username);
         System.out.println("password" + password);
+
         User loginUser = new User();
         loginUser.setUsername(username);
         loginUser.setPassword(password);
 
         UserService userService = new UserService();
+        //登录函数的返回值为User，需要使用一个User去接收返回的信息
         User user = userService.login(loginUser);
 
         Map<String,Object> returnMap = new HashMap<>();
@@ -52,8 +54,9 @@ public class loginServlet extends HttpServlet {
             System.out.println("登录失败！" + username);
             returnMap.put("msg",false);
         }
-        //把登录成功的map返回给前端，json
+        //把登录成功的map返回给前端，以json形式返回，json
         //便于前端进行处理
+
 
         ObjectMapper objectMapper = new ObjectMapper();
 

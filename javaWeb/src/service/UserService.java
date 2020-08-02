@@ -3,7 +3,6 @@ package service;
 import dao.UserDao;
 import entiy.PageBean;
 import entiy.User;
-import sun.nio.cs.US_ASCII;
 
 import java.util.List;
 import java.util.Map;
@@ -59,7 +58,7 @@ public class UserService {
      *     private int currentPage;//当前页码
      *     private int rows;//每一页的记录数
      */
-    public PageBean<User> findAllByPage(int currentPage,int rows,Map<String,String[]> map){
+    public PageBean<User> findAllByPage(int currentPage, int rows, Map<String,String[]> map){
         PageBean<User> pageBean = new PageBean<>();
         UserDao userDao = new UserDao();
         int totalCount = userDao.findAllRecord(map);
