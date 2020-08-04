@@ -17,7 +17,7 @@ public class User {
     private int age;
     private String address;
     private String qq;
-    private String emile;
+    private String email;
 
     public int getId() {
         return id;
@@ -83,12 +83,12 @@ public class User {
         this.qq = qq;
     }
 
-    public String getEmile() {
-        return emile;
+    public String getEmail() {
+        return email;
     }
 
-    public void setEmile(String emile) {
-        this.emile = emile;
+    public void setEmail(String email) {
+        this.email = email;
     }
 
     @Override
@@ -102,7 +102,9 @@ public class User {
                 ", age=" + age +
                 ", address='" + address + '\'' +
                 ", qq='" + qq + '\'' +
-                ", emile='" + emile + '\'' +
+                ", emile='" + email + '\'' +
                 '}';
     }
+
+
 }

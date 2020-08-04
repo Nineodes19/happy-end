@@ -50,7 +50,6 @@ public class Main4 {
                 }
             }
             max += sum;
-            System.out.println(sum);
             sum = 0;
             list.remove(l);
         }

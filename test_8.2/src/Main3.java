@@ -23,6 +23,17 @@ public class Main3 {
             l.add(list.get(i));
         }
         return l;
+
+
+//        ArrayList<Integer> res = new ArrayList<>();
+//        if(input == null || k <= 0||k>input.length){
+//            return res;
+//        }
+//        Arrays.sort(input);
+//        for(int i = 0; i < k; i++){
+//            res.add(input[i]);
+//        }
+//        return res;
     }
 
     public static void main(String[] args) {

@@ -6,35 +6,34 @@
  **/
 import java.util.*;
 public class Main1 {
+
+    private static String findMax(String string){
+
+        int temp = 0;
+        int max = 0;
+        String ret = "";//要返回的字符串
+        StringBuilder stringBuilder = new StringBuilder();
+        char[] ch = string.toCharArray();
+        for (int i = 0; i < ch.length; i++) {
+            if(Character.isDigit(ch[i])){
+                stringBuilder.append(ch[i]);
+                temp++;
+            }else{
+                temp = 0;
+                stringBuilder.delete(0,stringBuilder.length());
+            }
+
+            if(max < temp){
+                max = temp;
+                ret = stringBuilder.toString();
+            }
+        }
+        return ret;
+    }
+
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        String str = sc.nextLine();
-
-        StringBuffer s = new StringBuffer("");
-        int count = 0,max = Integer.MIN_VALUE;
-        Map<Integer,StringBuffer> map = new HashMap<>();
-        List<StringBuffer> list = new ArrayList<>();
-        for(int i = 0; i < str.length();i++){
-            if(Character.isDigit(str.charAt(i))){
-                count++;
-                s.append(str.charAt(i));
-            }else{
-                map.put(count,s);
-                if(count > max){
-
-                    max = count;
-                    count = 0;
-                    s.delete(0,s.length());
-                }
-
-            }
-        }
-        for(Map.Entry<Integer,StringBuffer> entry : map.entrySet()){
-            if(entry.getKey()==max){
-                System.out.println(entry.getValue());
-            }
-//            System.out.println(entry.getKey() + ":"+entry.getValue());
-        }
-
+        String s = sc.nextLine();
+        findMax(s);
     }
 }

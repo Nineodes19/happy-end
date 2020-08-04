@@ -32,9 +32,9 @@ public class loginServlet extends HttpServlet {
 
         String username = req.getParameter("username");
         String password = req.getParameter("password");
-
-        System.out.println("username" +username);
-        System.out.println("password" + password);
+//
+//        System.out.println("username" +username);
+//        System.out.println("password" + password);
 
         User loginUser = new User();
         loginUser.setUsername(username);
@@ -64,8 +64,4 @@ public class loginServlet extends HttpServlet {
         objectMapper.writeValue(resp.getWriter(),returnMap);
     }
 
-//    @Override
-//    protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
-//
-//    }
 }

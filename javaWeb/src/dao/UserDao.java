@@ -32,8 +32,9 @@ public class UserDao {
         ResultSet rs = null;
         User user = null;
         String sql = "select * from usermessage where username=? and password=?";
-        connection = DButil.getConnection();
+
         try {
+            connection = DButil.getConnection();
             ps = connection.prepareStatement(sql);
             ps.setString(1,loginUser.getUsername());
             ps.setString(2,loginUser.getPassword());
@@ -44,11 +45,11 @@ public class UserDao {
                 user.setName(rs.getString("name"));
                 user.setUsername(rs.getString("username"));
                 user.setPassword(rs.getString("password"));
-                user.setGender(rs.getString("gender"));
-                user.setAge(rs.getInt("age"));
                 user.setAddress(rs.getString("address"));
+                user.setAge(rs.getInt("age"));
+                user.setGender(rs.getString("gender"));
                 user.setQq(rs.getString("qq"));
-                user.setEmile(rs.getString("email"));
+                user.setEmail(rs.getString("email"));
             }
         } catch (SQLException e) {
             e.printStackTrace();
@@ -75,7 +76,7 @@ public class UserDao {
             ps.setInt(5,user.getAge());
             ps.setString(6,user.getAddress());
             ps.setString(7,user.getQq());
-            ps.setString(8,user.getEmile());
+            ps.setString(8,user.getEmail());
 
             int ret = ps.executeUpdate();
             return ret;
@@ -137,7 +138,7 @@ public class UserDao {
                 user.setAge(rs.getInt("age"));
                 user.setAddress(rs.getString("address"));
                 user.setQq(rs.getString("qq"));
-                user.setEmile(rs.getString("email"));
+                user.setEmail(rs.getString("email"));
             }
         } catch (SQLException e) {
             e.printStackTrace();
@@ -160,7 +161,7 @@ public class UserDao {
             ps.setInt(2,upUser.getAge());
             ps.setString(3,upUser.getAddress());
             ps.setString(4,upUser.getQq());
-            ps.setString(5,upUser.getEmile());
+            ps.setString(5,upUser.getEmail());
             ps.setInt(6,upUser.getId());
             int ret = ps.executeUpdate();
             return ret;
@@ -218,7 +219,7 @@ public class UserDao {
                 user.setAge(rs.getInt("age"));
                 user.setAddress(rs.getString("address"));
                 user.setQq(rs.getString("qq"));
-                user.setEmile(rs.getString("email"));
+                user.setEmail(rs.getString("email"));
                 users.add(user);
             }
         } catch (SQLException e) {

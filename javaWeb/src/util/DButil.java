@@ -16,7 +16,8 @@ import java.sql.SQLException;
  **/
 public class DButil {
     private static String url = "jdbc:mysql://127.0.0.1:3306/usermanger?useSSL=false";
-    private static String password = "jiugeqingchen";
+//    private static String password = "jiugeqingchen";
+private static String password = "1234";
     private static String username = "root";
     private static volatile DataSource DATASOURCE;
     private static DataSource getDataSource(){ // 双重校验锁
