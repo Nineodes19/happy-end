@@ -14,10 +14,10 @@ CREATE table classes(
 );
 
 drop table if exists student;
-create table student(]
+create table student(
   id INT PRIMARY KEY auto_increment,
   sn INT UNIQUE ,
   name VARCHAR (20) default 'unkown',
   qq_mail varchar (20),
-  
+
 );

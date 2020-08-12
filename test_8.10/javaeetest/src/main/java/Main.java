@@ -1,3 +1,4 @@
+import frank.Duckshop;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 
@@ -25,14 +26,17 @@ import org.springframework.context.support.ClassPathXmlApplicationContext;
 public class Main {
     public static void main(String[] args) {
         ApplicationContext context = new ClassPathXmlApplicationContext("applications.xml");
-        String bit = (String)context.getBean("bit");
-        //String bit2 = (String)context.getBean("java.lang.String#0");
-        System.out.println(bit);
-        //System.out.println(bit2);
+
+//        Duck3 dk1 = (Duck3) context.getBean("dk1");
+//        System.out.println(dk1);
+//        for(String name:context.getBeanDefinitionNames()){
+//            System.out.println(name);
+//            System.out.println(context.getBean(name));
+//            System.out.println("------------------");
+//        }
 
 
-        String bit2 = (String)context.getBean(String.class);
-        System.out.println(bit2);
-        //通过类型获取bean对象，如果该类型有多个对象，就会报错，只支持一个该类型的对象
+        Duckshop shop = (Duckshop) context.getBean("shop");
+        System.out.println(shop);
     }
 }

@@ -19,9 +19,9 @@ import java.sql.SQLException;
  **/
 public class DButil {
 
-    private static final String URL="";
-    private static final String USERNAME="";
-    private static final String PASSWORD="";
+    private static final String URL="jdbc:mysql://127.0.0.1:3306/blog?useSSL=false";
+    private static final String USERNAME="root";
+    private static final String PASSWORD="jiugeqingchen";
 
     private static volatile DataSource dataSource = null;
 

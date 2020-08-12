@@ -10,6 +10,8 @@ public class Duck {
     private String name;
     private int age;
 
+
+
     @Override
     public String toString() {
         return "Duck{" +
