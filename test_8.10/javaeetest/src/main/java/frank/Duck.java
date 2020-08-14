@@ -11,7 +11,6 @@ public class Duck {
     private int age;
 
 
-
     @Override
     public String toString() {
         return "Duck{" +

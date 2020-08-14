@@ -1,3 +1,4 @@
+import frank.Duck3;
 import frank.Duckshop;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
@@ -34,6 +35,8 @@ public class Main {
 //            System.out.println(context.getBean(name));
 //            System.out.println("------------------");
 //        }
+        Duck3 duck3 = (Duck3) context.getBean("dk1");
+        System.out.println(duck3);
 
 
         Duckshop shop = (Duckshop) context.getBean("shop");
