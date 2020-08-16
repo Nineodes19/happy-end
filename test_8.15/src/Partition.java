@@ -16,7 +16,7 @@ class ListNode {
 }
 public class Partition {
     public ListNode partition(ListNode pHead, int x) {
-        if(pHead == null || pHead.next === null){
+        if(pHead == null || pHead.next == null){
             return pHead;
         }
         ListNode cur = pHead;
