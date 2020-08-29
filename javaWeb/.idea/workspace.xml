@@ -170,7 +170,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -226,8 +225,9 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
       <pane id="AndroidView" />
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -535,11 +535,12 @@
       <workItem from="1597217020264" duration="632000" />
       <workItem from="1598609460011" duration="497000" />
       <workItem from="1598621739555" duration="275000" />
+      <workItem from="1598711161718" duration="152000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="61133000" />
+    <option name="totallyTimeSpent" value="61285000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -552,7 +553,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="434" y="0" width="935" height="703" extended-state="1" />
-    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="Event Log" order="15" side_tool="true" />
@@ -571,10 +571,10 @@
       <window_info id="Image Layers" order="3" />
       <window_info anchor="bottom" id="Java Enterprise" order="11" weight="0.32998326" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
-      <window_info anchor="bottom" id="Run" order="4" weight="0.6365159" />
       <window_info anchor="bottom" id="Version Control" order="14" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Run" order="4" weight="0.6365159" />
       <window_info anchor="bottom" id="Terminal" order="10" weight="0.32998326" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.34971428" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.3577143" />
       <window_info anchor="bottom" id="Problems" order="12" weight="0.32998326" />
       <window_info id="Web" order="6" side_tool="true" weight="0.3288703" />
       <window_info anchor="right" id="Theme Preview" order="7" />
@@ -583,10 +583,10 @@
       <window_info anchor="bottom" id="Inspection" order="7" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="bottom" id="Database Console" order="1" weight="0.2914573" />
-      <window_info anchor="bottom" id="Find" order="3" />
       <window_info anchor="bottom" id="Cvs" order="6" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="2" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="3" />
     </layout>
     <layout-to-restore>
       <window_info anchor="bottom" id="Application Servers" order="9" weight="0.32160804" />
