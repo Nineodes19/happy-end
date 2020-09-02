@@ -178,7 +178,7 @@ public class UserDao {
      * @param map name，address，email
      * @return
      */
-    public  List<User> findByPage(int start, int rows, Map<String,String[]> map){
+    public List<User> findByPage(int start, int rows, Map<String, String[]> map){
         List<User> users = new ArrayList<>();
         String sql = "select * from usermessage where 1=1 ";
         StringBuilder sb = new StringBuilder(sql);
@@ -282,35 +282,36 @@ public class UserDao {
 //    public static void main(String[] args) {
 //
 //        Map<String,String[]> map = new HashMap<>();
-////        String[] names = {"孙"};
-////        map.put("name",names);
-//        String[] addresses = {"陕西"};
+//        String[] names = {"孙"};
+//        map.put("name",names);
+//        String[] addresses = {""};
 //        map.put("address",addresses);
-//
+
 //        List<User> userList = findByPage(0,5,map);
 //        for (User u: userList) {
 //            System.out.println(u);
 //        }
-//
+
+
 //        int count = findAllRecord(map);
 //        System.out.println(count);
-////        User user = new User();
-////
-////        user.setId(7);
-////        user.setGender("女");
-////        user.setAddress("陕西");
-////        user.setAge(800);
-////        user.setQq("123645");
-////        user.setEmile("123645@qq.com");
-////        int ret = updateUser(user);
-////        if (ret==  0) {
-////            System.out.println("更新失败");
-////        } else {
-////            System.out.println("更新成功");
-////        }
+//        User user = new User();
 //
-//
-////        User ret = find(1);
-////        System.out.println(ret);
+//        user.setId(7);
+//        user.setGender("女");
+//        user.setAddress("陕西");
+//        user.setAge(800);
+//        user.setQq("123645");
+//        user.setEmile("123645@qq.com");
+//        int ret = updateUser(user);
+//        if (ret==  0) {
+//            System.out.println("更新失败");
+//        } else {
+//            System.out.println("更新成功");
+//        }
+
+
+//        User ret = find(1);
+//        System.out.println(ret);
 //    }
 }
