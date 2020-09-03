@@ -30,8 +30,8 @@ public class loginServlet extends HttpServlet {
         req.setCharacterEncoding("utf-8");
         resp.setContentType("application/json;charset=utf-8");
 
-        String username = req.getParameter("username");
-        String password = req.getParameter("password");
+        String username = req.getParameter("us");
+        String password = req.getParameter("pa");
 //
 //        System.out.println("username" +username);
 //        System.out.println("password" + password);

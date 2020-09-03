@@ -279,6 +279,13 @@ public class UserDao {
     }
 
 
+    public static void main(String[] args) {
+        Map<String,String[]> map = new HashMap<>();
+        UserDao userDao = new UserDao();
+        int count = userDao.findAllRecord(map);
+        System.out.println(count);
+    }
+
 //    public static void main(String[] args) {
 //
 //        Map<String,String[]> map = new HashMap<>();
