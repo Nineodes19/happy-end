@@ -22,7 +22,7 @@ public class DeleteServlet extends HttpServlet {
         req.setCharacterEncoding("utf-8");
         resp.setContentType("application/json;charset=utf-8");
 
-        String idString = req.getParameter("id");
+        String idString = req.getParameter("u_id");
         int id = Integer.parseInt(idString);
 
         UserService userService = new UserService();
