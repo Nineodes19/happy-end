@@ -83,6 +83,8 @@ public class UserDao {
             return ret;
         } catch (SQLException e) {
             e.printStackTrace();
+        }finally {
+            DButil.close(connection,ps,rs);
         }
         return 0;
     }
