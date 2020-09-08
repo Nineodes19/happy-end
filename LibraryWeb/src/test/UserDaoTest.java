@@ -2,6 +2,7 @@ package test;
 
 import dao.UserDao;
 import entiy.User;
+import org.junit.Test;
 
 import java.util.HashMap;
 import java.util.List;
@@ -46,8 +47,20 @@ public class UserDaoTest {
         }
     }
 
+    @Test
+    public void delete(){
+        UserDao userDao = new UserDao();
+        int ret = userDao.delete(10);
+        if(ret != 0){
+            System.out.println("删除成功！");
+        }else{
+            throw new RuntimeException("删除失败！！");
+        }
+    }
+
     @org.junit.Test
     public void findByPage() {
+        //模糊查询
         UserDao userDao = new UserDao();
         Map<String,String[]> map = new HashMap<>();
         List<User> users =  userDao.findByPage(0,4,map);
@@ -57,6 +70,7 @@ public class UserDaoTest {
 
     @org.junit.Test
     public void findAllRecord() {
+        //查询总记录数
         Map<String,String[]> map = new HashMap<>();
         UserDao userDao = new UserDao();
         int ret = userDao.findAllRecord(map);

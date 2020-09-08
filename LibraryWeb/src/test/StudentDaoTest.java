@@ -66,18 +66,6 @@ public class StudentDaoTest {
     }
 
     @Test
-    public void find() {
-        int xh = 10000;
-        StudentDao studentDao = new StudentDao();
-        Student student = studentDao.find(xh);
-        if(student == null){
-            System.out.println("没有该学生信息！！");
-        }else{
-            System.out.println("查询完成！！该学生信息如下： \n"+student);
-        }
-    }
-
-    @Test
     public void updateUser() {
 
 //        update student set stu_pwd=?,stu_sex=?,stu_age=?,stu_mobile=?,stu_addrss=? where stu_xh=?
@@ -99,6 +87,17 @@ public class StudentDaoTest {
         }
     }
 
+    @Test
+    public void find() {
+        int xh = 10000;
+        StudentDao studentDao = new StudentDao();
+        Student student = studentDao.find(xh);
+        if(student == null){
+            System.out.println("没有该学生信息！！");
+        }else{
+            System.out.println("查询完成！！该学生信息如下： \n"+student);
+        }
+    }
     @Test
     public void findByPage() {
         StudentDao studentDao = new StudentDao();
