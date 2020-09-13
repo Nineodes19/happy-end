@@ -21,7 +21,7 @@ public class TestDemo1 {
             for (int i = 0; i < S1.length; i++) {
                 System.out.print(S1[i] + "-");
                 for (int j = i; j < S2.length; j++) {
-                    
+
                 }
             }
         }
