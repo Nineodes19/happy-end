@@ -23,7 +23,7 @@ public class Main3 {
             }
         }
         while(set.size() != 0){
-            list.add(set.)
+
         }
         return list;
     }
