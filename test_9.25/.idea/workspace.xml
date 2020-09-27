@@ -59,7 +59,7 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
+  <component name="ProjectFrameBounds">
     <option name="x" value="652" />
     <option name="y" value="27" />
     <option name="width" value="673" />
@@ -177,15 +177,15 @@
       <option name="presentableId" value="Default" />
       <updated>1601002923876</updated>
       <workItem from="1601002927324" duration="833000" />
-      <workItem from="1601089228542" duration="880000" />
+      <workItem from="1601089228542" duration="891000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1713000" />
+    <option name="totallyTimeSpent" value="1724000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="652" y="27" width="673" height="663" extended-state="1" />
+    <frame x="652" y="27" width="673" height="663" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
@@ -198,7 +198,7 @@
       <window_info anchor="right" id="Maven Projects" order="3" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32956687" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32956687" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
