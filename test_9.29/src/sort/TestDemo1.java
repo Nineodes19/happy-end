@@ -168,4 +168,20 @@ public class TestDemo1 {
         array[j] = array[i];
         return i;
     }
+    public static void quickSort(int[] array){
+        quickSortInternal(array,0,array.length-1);
+    }
+
+    private static void quickSortInternal(int[] array,int left,int right){
+        if(left == right){
+            return;
+        }
+        if(left > right){
+            return;
+        }
+
+        int pivotIndex = partition(array,left,right);
+        quickSortInternal(array,left,pivotIndex-1);
+        quickSortInternal(array,pivotIndex+1,right);
+    }
 }
