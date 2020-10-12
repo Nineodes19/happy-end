@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="fbc5006b-d35a-438e-b235-7157c85e46a0" name="Default" comment="" />
+    <list default="true" id="92b4fe1a-73b9-4180-b88d-d811b10dfff7" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -12,21 +12,28 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="testDemo1011.sql" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/testDemo1011.sql">
+      <file leaf-file-name="ThreadDemo.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/ThreadDemo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="396">
-              <caret line="18" column="29" selection-start-line="18" selection-start-column="29" selection-end-line="18" selection-end-column="29" />
+            <state relative-caret-position="412">
+              <caret line="23" column="5" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="5" />
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/testDemo1011.sql" />
+        <option value="$PROJECT_DIR$/src/ThreadDemo.java" />
       </list>
     </option>
   </component>
@@ -47,25 +54,25 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="AndroidView" />
-      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="test_10.11" type="b2602c69:ProjectViewProjectNode" />
-              <item name="test_10.11" type="462c0819:PsiDirectoryNode" />
+              <item name="test_10.12" type="b2602c69:ProjectViewProjectNode" />
+              <item name="test_10.12" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="test_10.11" type="b2602c69:ProjectViewProjectNode" />
-              <item name="test_10.11" type="462c0819:PsiDirectoryNode" />
+              <item name="test_10.12" type="b2602c69:ProjectViewProjectNode" />
+              <item name="test_10.12" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
+      <pane id="PackagesPane" />
+      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -138,21 +145,20 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="fbc5006b-d35a-438e-b235-7157c85e46a0" name="Default" comment="" />
-      <created>1602406753025</created>
+      <changelist id="92b4fe1a-73b9-4180-b88d-d811b10dfff7" name="Default" comment="" />
+      <created>1602514023193</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1602406753025</updated>
-      <workItem from="1602406756153" duration="1315000" />
+      <updated>1602514023193</updated>
+      <workItem from="1602514026137" duration="308000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1315000" />
+    <option name="totallyTimeSpent" value="308000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="712" y="30" width="664" height="663" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -167,7 +173,7 @@
       <window_info anchor="bottom" id="Terminal" />
       <window_info id="Capture Tool" />
       <window_info id="Designer" />
-      <window_info content_ui="combo" id="Project" order="0" weight="0.25" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
       <window_info anchor="right" id="Database" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -190,10 +196,10 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/testDemo1011.sql">
+    <entry file="file://$PROJECT_DIR$/src/ThreadDemo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="18" column="29" selection-start-line="18" selection-start-column="29" selection-end-line="18" selection-end-column="29" />
+        <state relative-caret-position="412">
+          <caret line="23" column="5" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="5" />
         </state>
       </provider>
     </entry>
